@@ -1,0 +1,5 @@
+Q1 := 3*x^2 - 4*y^2;
+Q2 := -3*x^2 - 5*y^2 + 4*z^2;
+Q3 := x^2 - 4*y^2;
+
+This doesn't have less than 6 roots, but interestingly its Weierstrass point gives a root of infinity for both Q1, Q3 and when you switch it

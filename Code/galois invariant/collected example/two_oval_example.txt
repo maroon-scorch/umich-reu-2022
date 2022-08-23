@@ -1,0 +1,23 @@
+R<x,y,z> := PolynomialRing(RealField(), 3);
+
+mat_at_pt := function(M1, M2, M3, x, y)
+    M := M1*x^2 + M2*2*x*y + M3*y^2;
+    res := DiagonalJoin(M, Matrix(RealField(), 1, [-1]));
+    return res;
+end function;
+
+Q1 :=  x^2 - y^2 - z^2;
+Q2 :=  13/16*x^2 - 69/80*y^2 - 11/18*z^2;
+Q3 :=  -7/32*x^2 - 1/5*y^2 - 10/27*z^2;
+
+M1 := SymmetricMatrix(Q1);
+M2 := SymmetricMatrix(Q2);
+M3 := SymmetricMatrix(Q3);
+
+M := mat_at_pt(M1, M2, M3, -2, 1);
+
+[ -1.74999999999999999999999999991, -1.60000000000000000000000000011,
+-0.666666666666666666666666666620, -0.555555555555555555555555555586,
+-0.125000000000000000000000000000, 0.125000000000000000000000000000 ]
+
+Nullspace(M);

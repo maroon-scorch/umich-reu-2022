@@ -1,0 +1,470 @@
+Q1 := 2/13*x^2 + 2*x*y + 1/3*y^2 + 22/13*x*z + 30/11*y*z + 3/11*z^2;
+Q2 := 10/11*x^2 + 14/11*x*y + 11/3*y^2 + 11*x*z + 26/3*y*z + 8/13*z^2;
+Q3 := 8/13*x^2 + 30/11*x*y + 8/11*y^2 + 12/11*x*z + 2*y*z + 9/5*z^2;
+Delta: 14964/20449*x^4 + 1044/1573*x^3*y + 3956/1573*x^2*y^2 + 230/33*x*y^3 + 1307/99*y^4 + 34932/1859*x^3*z + 1364/39*x^2*y*z + 141090/1573*x*y^2*z + 66326/1089*y^3*z + 85677/715*x^2*z^2 + 329476/1815*x*y*z^2 + 5193569/70785*y^2*z^2 + 80182/7865*x*z^3 + 172/33*y*z^3 - 1043/9295*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Q1 := 5/13*x^2 + 6*x*y + 4/3*y^2 + 24/5*x*z + 7*y*z + 12/13*z^2;
+Q2 := 11/2*x^2 + 14/11*x*y + 12/11*y^2 + 10*x*z + 10*y*z + 1/5*z^2;
+Q3 := 1/7*x^2 + 16/3*x*y + 7/5*y^2 + 8/11*x*z + 10/7*y*z + 3/7*z^2;
+Delta: 10991/364*x^4 + 3028/273*x^3*y - 631231/33033*x^2*y^2 - 69338/5445*x*y^3 - 1228/1815*y^4 + 545718/5005*x^3*z + 520227/5005*x^2*y*z - 36508/5775*x*y^2*z + 11681/1155*y^3*z + 492554/5005*x^2*z^2 + 906238/5005*x*y*z^2 + 443306/5005*y^2*z^2 + 6364/5005*x*z^3 - 29/91*y*z^3 - 809/2275*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 4:
+Q1 := 13/11*x^2 + 12*x*y + 5/7*y^2 + 4/5*x*z + 2/5*y*z + 1/11*z^2;
+Q2 := 2/3*x^2 + 8*x*y + 1/13*y^2 + 4*x*z + 10/3*y*z + 7/3*z^2;
+Q3 := 10/13*x^2 + 26/7*x*y + 9/11*y^2 + 8*x*z + 8/5*y*z + 9/13*z^2;
+Delta: -46/99*x^4 - 8870/3003*x^3*y + 595081/33033*x^2*y^2 - 78762/7007*x*y^3 - 7528/13013*y^4 - 2032/429*x^3*z - 1474124/45045*x^2*y*z + 57688/2145*x*y^2*z - 14374/15015*y^3*z + 76081/6435*x^2*z^2 + 1273138/25025*x*y*z^2 + 25421866/2477475*y^2*z^2 + 37292/2145*x*z^3 + 97382/6435*y*z^3 + 6926/1287*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 185:
+Q1 := 4/11*x^2 + 4/7*x*y + 1/13*y^2 + 22/3*x*z + 20/13*y*z + 7/13*z^2;
+Q2 := 6/11*x^2 + 6*x*y + 2/3*y^2 + 24/5*x*z + 2*y*z + 5/7*z^2;
+Q3 := 2*x^2 + 11*x*y + 13/11*y^2 + 14/11*x*z + 14/13*y*z + 6/11*z^2;
+Delta: -52/121*x^4 + 108/77*x^3*y + 328766/11011*x^2*y^2 + 6485/1001*x*y^3 + 35/99*y^4 - 17956/1815*x^3*z - 53798/2145*x^2*y*z + 676/165*x*y^2*z + 4270/5577*y^3*z + 10909658/825825*x^2*z^2 + 175393/15015*x*y*z^2 + 102175/39039*y^2*z^2 + 2174/1001*x*z^3 + 18714/13013*y*z^3 + 1517/7007*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 21:
+Q1 := 8/13*x^2 + 20/3*x*y + 4/5*y^2 + 4*x*z + 4/11*y*z + z^2;
+Q2 := 10/13*x^2 + 8/11*x*y + 15/13*y^2 + 12/5*x*z + 28/5*y*z + 1/3*z^2;
+Q3 := 1/11*x^2 + 10/13*x*y + 7/13*y^2 + 18/11*x*z + 30/11*y*z + 9/7*z^2;
+Delta: 996/1859*x^4 + 20/507*x^3*y - 990208/306735*x^2*y^2 - 1084/429*x*y^3 + 761/845*y^4 + 332/143*x^3*z - 28244/7865*x^2*y*z - 5892/715*x*y^2*z + 116/11*y^3*z - 86693/75075*x^2*z^2 + 5384426/825825*x*y*z^2 + 8140009/275275*y^2*z^2 - 1994/385*x*z^3 + 622/1155*y*z^3 - 74/63*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 76:
+Q1 := 3/11*x^2 + 14*x*y + 8/11*y^2 + 24/13*x*z + 2/13*y*z + 5/7*z^2;
+Q2 := 4/7*x^2 + 6*x*y + 2/3*y^2 + 12/13*x*z + 6*y*z + 3*z^2;
+Q3 := 2*x^2 + 4/7*x*y + 1/7*y^2 + 11*x*z + 24/11*y*z + 3/11*z^2;
+Delta: -118/539*x^4 - 1640/77*x^3*y + 6299/231*x^2*y^2 + 430/77*x*y^3 + 236/693*y^4 - 513/91*x^3*z - 116906/847*x^2*y*z + 34368/1001*x*y^2*z + 70374/11011*y^3*z - 358471/20449*x^2*z^2 + 23652/637*x*y*z^2 + 3034055/77077*y^2*z^2 - 2825/1001*x*z^3 + 34434/1001*y*z^3 + 678/77*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 194:
+Q1 := 1/13*x^2 + 6/13*x*y + 5/13*y^2 + 8*x*z + 8*y*z + 13/3*z^2;
+Q2 := 2*x^2 + 6/7*x*y + 12/11*y^2 + 26/3*x*z + 16/5*y*z + 13/5*z^2;
+Q3 := 9/2*x^2 + 28/3*x*y + 6/7*y^2 + 12/11*x*z + 18/13*y*z + 5/11*z^2;
+Delta: 95/26*x^4 + 173/273*x^3*y - 14099/14014*x^2*y^2 - 6352/3003*x*y^3 + 9474/11011*y^4 - 608/429*x^3*z - 16322114/195195*x^2*y*z - 11357936/195195*x*y^2*z - 26538/65065*y^3*z + 736793/12870*x^2*z^2 - 24082/45045*x*y*z^2 + 23691/25025*y^2*z^2 + 6056/165*x*z^3 + 1926/275*y*z^3 + 3952/825*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 137:
+Q1 := 14/5*x^2 + 4/3*x*y + 9/13*y^2 + 11*x*z + 4*y*z + z^2;
+Q2 := 14/5*x^2 + 6*x*y + 9/2*y^2 + 7*x*z + 14/11*y*z + 3/2*z^2;
+Q3 := 11/5*x^2 + 14/3*x*y + 6/11*y^2 + 6/7*x*z + 6*y*z + 3/13*z^2;
+Delta: 42/25*x^4 + 88/5*x^3*y + 334153/6435*x^2*y^2 + 7156/143*x*y^3 + 11367/572*y^4 + 63/5*x^3*z + 15074/1155*x^2*y*z + 135173/3003*x*y^2*z + 732/143*y^3*z + 20532/455*x^2*z^2 - 115870/3003*x*y*z^2 - 392023/40898*y^2*z^2 + 1602/91*x*z^3 - 444/143*y*z^3 + 105/52*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 31:
+Q1 := 13/11*x^2 + 28/3*x*y + 7/5*y^2 + 4*x*z + 12/13*y*z + 7/13*z^2;
+Q2 := 15/7*x^2 + 8/13*x*y + 14/3*y^2 + 10/3*x*z + 28/3*y*z + 3*z^2;
+Q3 := 5/3*x^2 + 2*x*y + 14/11*y^2 + 6*x*z + 12/5*y*z + 8/11*z^2;
+Delta: 4240/1617*x^4 - 137674/9009*x^3*y - 43463/20449*x^2*y^2 - 19166/2145*x*y^3 + 9898/495*y^4 + 122/231*x^3*z - 52064/2145*x^2*y*z + 31282/6435*x*y^2*z + 2656892/32175*y^3*z - 177257/99099*x^2*z^2 + 276134/6435*x*y*z^2 + 715522/6435*y^2*z^2 + 1982/143*x*z^3 + 2972/55*y*z^3 + 1231/143*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 82:
+Q1 := 5/3*x^2 + 6/13*x*y + 8/7*y^2 + 6/13*x*z + 4*y*z + 5/11*z^2;
+Q2 := 7*x^2 + 8/3*x*y + 2/13*y^2 + 12/11*x*z + 10*y*z + 6/5*z^2;
+Q3 := 1/7*x^2 + 15*x*y + 7/11*y^2 + 4*x*z + 6/13*y*z + 1/13*z^2;
+Delta: 1024/21*x^4 + 3349/273*x^3*y + 70505/63063*x^2*y^2 - 49898/3003*x*y^3 - 1308/1859*y^4 + 25646/3003*x^3*z + 135844/1001*x^2*y*z - 445402/39039*x*y^2*z + 4/1001*y^3*z + 2634512/165165*x^2*z^2 + 4353/845*x*y*z^2 + 5403423/55055*y^2*z^2 + 646/845*x*z^3 + 3358/143*y*z^3 + 5023/3575*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+
+Iteration 31:
+Q1 := 13/3*x^2 - x*y - 12/13*y^2 - 3*x*z + 26/7*y*z - 9/13*z^2;
+Q2 := -7/3*x^2 - 6/11*x*y + 15/13*y^2 - 16/7*x*z - 20/11*y*z + z^2;
+Q3 := -5/11*x^2 - 6/13*x*y + 6/13*y^2 + 2*x*z - 14/5*y*z + 10/13*z^2;
+Delta: 734/99*x^4 + 45/11*x^3*y - 12534/1573*x^2*y^2 - 2274/1859*x*y^3 + 297/169*y^4 + 7/11*x^3*z + 1652/65*x^2*y*z - 63104/55055*x*y^2*z - 42516/5005*y^3*z + 20389/7007*x^2*z^2 - 530806/65065*x*y*z^2 + 1742568/102245*y^2*z^2 - 80/91*x*z^3 - 42202/5005*y*z^3 + 259/169*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+------------------------------------------
+Iteration 32:
+Q1 := 3/2*x^2 + 4*x*y - 4*x*z + 14/13*y*z - 9/13*z^2;
+Q2 := 6/7*x^2 + 4/7*x*y - 9/5*y^2 + 12/7*x*z - 26/3*y*z - 5/7*z^2;
+Q3 := -13/3*x^2 - 24/5*x*y + y^2 + 16/13*x*z + 12/5*y*z + 4/11*z^2;
+Delta: 709/98*x^4 + 18752/735*x^3*y + 7321/490*x^2*y^2 - 212/35*x*y^3 + 81/25*y^4 - 31036/1911*x^3*z - 343544/9555*x^2*y*z - 22532/1365*x*y^2*z + 1958/65*y^3*z + 3095/1001*x^2*z^2 - 12312624/455455*x*y*z^2 + 310361/4095*y^2*z^2 - 12968/91091*x*z^3 + 204968/15015*y*z^3 + 5339/7007*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 133:
+Q1 := -8/11*x^2 + 6/11*x*y + 4*y^2 - 7*x*z - y*z - z^2;
+Q2 := -7/13*x^2 - 28/5*x*y - 12/11*y^2 - 8*x*z + 16/7*y*z + 12/7*z^2;
+Q3 := -5/2*x^2 - 24/5*x*y + 11/7*y^2 - 24/7*x*z + 2*y*z + 6/7*z^2;
+Delta: -2841/1859*x^4 + 2791/715*x^3*y + 1158554/25025*x^2*y^2 + 11766/385*x*y^3 - 4316/847*y^4 - 22779/2002*x^3*z + 108835/2002*x^2*y*z + 4111/385*x*y^2*z - 879/77*y^3*z + 72627/2002*x^2*z^2 - 3886/77*x*y*z^2 + 877/539*y^2*z^2 - 174/7*x*z^3 + 524/49*y*z^3 + 186/49*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 35:
+Q1 := 1/5*x^2 - 2/11*x*y + 5/2*y^2 - 24/11*x*z - 6*y*z + 11/13*z^2;
+Q2 := 6/11*x^2 - 5*x*y + 12/11*y^2 - 12/13*x*z + 2*y*z - 4/3*z^2;
+Q3 := 4/7*x^2 + 4/3*x*y + 7/5*y^2 + 4/7*x*z + 8/13*y*z - 2*z^2;
+Delta: 776/4235*x^4 - 6488/1155*x^3*y + 1570588/63525*x^2*y^2 - 2308/165*x*y^3 - 559/242*y^4 + 628/5005*x^3*z + 88744/5005*x^2*y*z - 61442/5005*x*y^2*z + 8026/715*y^3*z + 36486/65065*x^2*z^2 + 38800/3003*x*y*z^2 + 6148/715*y^2*z^2 - 2388/1001*x*z^3 - 9052/507*y*z^3 + 406/117*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 44:
+Q1 := 11/3*x^2 + 4*x*y - 6*y^2 + 16/13*x*z - 18/11*y*z - 3/7*z^2;
+Q2 := 4/3*x^2 + 30/7*x*y - 7/5*y^2 - 6/11*x*z - 20/3*y*z + 12/11*z^2;
+Q3 := 2/3*x^2 - 30/7*x*y + 3*y^2 - 10*x*z + 2*y*z + 1/13*z^2;
+Delta: -2/3*x^4 + 514/21*x^3*y + 18211/735*x^2*y^2 - 348/7*x*y^3 + 499/25*y^4 + 4918/143*x^3*z + 149362/9009*x^2*y*z - 61116/455*x*y^2*z + 1174/33*y^3*z + 512605/33033*x^2*z^2 - 30454/7007*x*y*z^2 + 2090533/45045*y^2*z^2 - 797374/143143*x*z^3 - 13576/1001*y*z^3 + 13467/11011*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 67:
+Q1 := 9/2*x^2 - 16/3*x*y - 8/13*y^2 - 15*x*z - 12/7*y*z - z^2;
+Q2 := 4/7*x^2 - 2*y^2 - 18/7*x*z + 6/5*y*z + 11/5*z^2;
+Q3 := -8/5*x^2 - 4/11*x*y - 1/2*y^2 + 26/5*x*z + 4/11*y*z;
+Delta: 1844/245*x^4 - 1138/165*x^3*y - 177761/60060*x^2*y^2 - 1240/429*x*y^3 + 48/13*y^4 - 12333/245*x^3*z + 22258/1155*x^2*y*z + 16867/2310*x*y^2*z - 27194/5005*y^3*z + 20954/245*x^2*z^2 + 3016/385*x*y*z^2 - 27861/3850*y^2*z^2 - 214/35*x*z^3 + 1552/275*y*z^3 + 121/25*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+MARK
+
+Iteration 115:
+Q1 := x^2 - 18/5*x*y + 4/13*y^2 - 6/11*x*z - 10/11*y*z - 6/11*z^2;
+Q2 := -5/3*x^2 + 24/13*x*y - 4/5*y^2 - 2*x*z - 10*y*z + 15/7*z^2;
+Q3 := -7/5*x^2 + 12*x*y + 11/5*y^2 + 16/3*x*z + 8/3*y*z + 8/7*z^2;
+Delta: 188/45*x^4 - 7538/325*x^3*y + 120427/2535*x^2*y^2 + 414/325*x*y^3 - 12/325*y^4 + 94/165*x^3*z + 102434/2145*x^2*y*z - 5858/429*x*y^2*z + 670/39*y^3*z - 824/385*x^2*z^2 + 974096/15015*x*y*z^2 + 1499158/15015*y^2*z^2 - 388/77*x*z^3 - 444/11*y*z^3 + 2811/539*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 158:
+Q1 := 13/2*x^2 - 2/3*x*y - 6/11*y^2 - 18/5*x*z + 6*y*z - 9/11*z^2;
+Q2 := -4/11*x^2 + 14/11*x*y - 4/5*y^2 + 26/3*x*z + 13*y*z - 2*z^2;
+Q3 := -5/11*x^2 + 28/11*x*y - y^2 - 18/7*x*z + 5*z^2;
+Delta: 747/242*x^4 - 6452/363*x^3*y + 36847/3630*x^2*y^2 - 2386/1815*x*y^3 + 26/275*y^4 + 2027/231*x^3*z + 26314/1155*x^2*y*z - 1214/1155*x*y^2*z - 74/5*y^3*z + 2625103/76230*x^2*z^2 + 612602/2541*x*y*z^2 + 9576/55*y^2*z^2 - 4336/231*x*z^3 - 82*y*z^3 + 89/11*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 185:
+Q1 := 8/11*x^2 - 24/13*x*y - 9/13*y^2 + 11*x*z - 10/11*y*z + 3/2*z^2;
+Q2 := -15/7*x^2 + 30/7*x*y + 13/5*y^2 - 2*x*z + 18/5*y*z - 15/13*z^2;
+Q3 := 10/13*x^2 - 8/3*x*y - 8/11*y^2 - 30/7*x*z + 6/13*y*z - 8/7*z^2;
+Delta: 28255/7007*x^4 - 4101236/273273*x^3*y + 3369612/1002001*x^2*y^2 + 19116/1001*x*y^3 + 22367/3575*y^4 + 3230/1001*x^3*z - 32392/3003*x^2*y*z + 4668662/195195*x*y^2*z + 9395482/511225*y^3*z + 55821/1001*x^2*z^2 - 157022/5005*x*y*z^2 + 192174/25025*y^2*z^2 + 307/13*x*z^3 - 773/77*y*z^3 + 3603/1183*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 59:
+Q1 := 6/7*x*y + 2/13*y^2 - 6*x*z + 4/3*y*z + 6/7*z^2;
+Q2 := -3/11*x^2 - 10*x*y - 3/2*y^2 + 8*x*z - 22/7*y*z + z^2;
+Q3 := -24/7*x*y - 7/11*y^2 - 6*y*z - 3/2*z^2;
+Delta: 9/121*x^4 + 60/11*x^3*y + 55925/539*x^2*y^2 + 31104/1001*x*y^3 + 1343/572*y^4 - 48/11*x^3*z - 1252/7*x^2*y*z + 3446/77*x*y^2*z + 33634/3003*y^3*z + 698/11*x^2*z^2 - 5001/49*x*y*z^2 + 109686/7007*y^2*z^2 + 7*x*z^3 + 6/7*y*z^3 + 16/7*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 127:
+Q1 := -2*x^2 - 4/3*x*y + 10/13*y^2 + 22/5*x*z - 8/7*y*z + 4*z^2;
+Q2 := -2*x^2 - 8/3*x*y + y^2 + 2*x*z - 10*y*z - 11/3*z^2;
+Q3 := -8/5*x^2 - 8/7*x*y + y^2 + x*z - 30/7*y*z - 11/7*z^2;
+Delta: 4/5*x^4 + 656/105*x^3*y + 3946/819*x^2*y^2 - 284/91*x*y^3 + 3/13*y^4 + 26/25*x^3*z + 2656/105*x^2*y*z + 431348/9555*x*y^2*z - 1416/91*y^3*z + 368/21*x^2*z^2 + 128/63*x*y*z^2 + 162392/1911*y^2*z^2 - 1234/105*x*z^3 + 13036/147*y*z^3 + 1243/63*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 175:
+Q1 := 5/3*x^2 - 8*x*y - 4*y^2 - 18/13*x*z - 4/7*y*z - 15/7*z^2;
+Q2 := -3/13*x^2 - 14/3*x*y - 2*y^2 + 2*x*z + 15*y*z + 5/3*z^2;
+Q3 := -4/7*x^2 - 2*x*y + y^2 - 3*x*z - 2*y*z + 4/7*z^2;
+Delta: 3569/3549*x^4 + 250/273*x^3*y + 2251/819*x^2*y^2 + 56/3*x*y^3 + 8*y^4 + 23/7*x^3*z - 94312/1911*x^2*y*z - 15994/91*x*y^2*z - 472/7*y^3*z - 5924/1911*x^2*z^2 + 32962/819*x*y*z^2 + 4654/21*y^2*z^2 + 281/273*x*z^3 + 2256/49*y*z^3 + 1765/441*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 91:
+Q1 := 10/7*x^2 - 5*x*y - 7/5*y^2 - 8/3*x*z + 6/7*y*z + 11/13*z^2;
+Q2 := 2/11*x^2 + 28/3*x*y - 14/3*y^2 - 22/13*x*z + 16/5*y*z + 8/5*z^2;
+Q3 := 14/11*x^2 + 24/7*x*y - 15/13*y^2 + 12/5*x*z - 2/11*y*z - 1/13*z^2;
+Delta: -216/121*x^4 + 7858/1617*x^3*y + 4774192/45045*x^2*y^2 - 51527/585*x*y^3 + 2359/117*y^4 - 1952/3003*x^3*z - 151868/15015*x^2*y*z + 37818574/525525*x*y^2*z - 87484/3003*y^3*z + 577692/65065*x^2*z^2 + 66107/5005*x*y*z^2 - 3580706/975975*y^2*z^2 - 1492/195*x*z^3 + 23796/2275*y*z^3 + 11091/4225*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 100:
+Q1 := -6/5*y^2 + 10/11*x*z + 24/7*y*z - 4/13*z^2;
+Q2 := x^2 - 10/13*y^2 - 11*x*z - 3*y*z + 7/2*z^2;
+Q3 := -13/5*x^2 + 10*x*y + 15/2*y^2 - 16/11*x*z - 26/5*y*z - 8/3*z^2;
+Delta: x^4 - 1514/325*x^2*y^2 + 12*x*y^3 + 1621/169*y^4 - 216/11*x^3*z - 2378/385*x^2*y*z - 129761/5005*x*y^2*z - 62196/2275*y^3*z + 77756/605*x^2*z^2 + 7170/91*x*y*z^2 + 9351/455*y^2*z^2 - 32185/429*x*z^3 - 471/35*y*z^3 + 1783/156*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 103:
+Q1 := 8/3*x^2 + 2*x*y + 4/3*y^2 - 4/3*x*z + 24/11*y*z - 8/7*z^2;
+Q2 := -5*x^2 + 10/7*x*y + 4*y^2 + 20/11*y*z - 7/13*z^2;
+Q3 := x^2 - 2*x*y - 5/7*y^2 + 4*x*z - 26/7*y*z + 15/13*z^2;
+Delta: 67/3*x^4 - 230/21*x^3*y - 1636/49*x^2*y^2 + 326/21*x*y^3 + 356/21*y^4 - 28/3*x^3*z - 4880/231*x^2*y*z + 824/77*x*y^2*z + 4864/231*y^3*z + 2398/273*x^2*z^2 - 59494/3003*x*y*z^2 + 365900/77077*y^2*z^2 + 556/91*x*z^3 - 61104/7007*y*z^3 + 1903/1183*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 152:
+Q1 := 4*x^2 - 26/11*x*y + 1/11*y^2 + 4*x*z + 12/11*y*z + 4/13*z^2;
+Q2 := -8/13*x^2 - 4/7*x*y + 10/13*y^2 - 22/5*x*z - 15*y*z - 3/5*z^2;
+Q3 := -11/5*x^2 + 4/7*x*y + 5/7*y^2 + 14/13*x*z - 4/3*y*z + 2*z^2;
+Delta: 7756/845*x^4 - 3086/455*x^3*y - 877529/455455*x^2*y^2 + 758/1001*x*y^3 + 6855/13013*y^4 + 644/65*x^3*z + 94544/3003*x^2*y*z + 10942/3003*x*y^2*z - 71276/3003*y^3*z + 2752/325*x^2*z^2 + 163312/1155*x*y*z^2 + 17335/77*y^2*z^2 - 12892/4225*x*z^3 + 6962/429*y*z^3 - 83/325*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.\
+
+Iteration 189:
+Q1 := 7/11*x^2 - 4*x*y - 4/3*y^2 - 18/5*x*z - 2/11*y*z + 2/3*z^2;
+Q2 := 4/7*x^2 - 6/13*x*y - 8/7*y^2 - 22/5*x*z + 26/5*y*z - 1/5*z^2;
+Q3 := -4/13*x^2 + 10*x*y + 12/7*y^2 + 12/13*x*z + 2*y*z - 4/5*z^2;
+Delta: 3660/7007*x^4 - 8130/1001*x^3*y + 10221976/273273*x^2*y^2 + 5800/273*x*y^3 + 176/49*y^4 - 33652/5005*x^3*z + 242082/5005*x^2*y*z + 22500/1001*x*y^2*z - 10288/1155*y^3*z + 1739392/75075*x^2*z^2 - 515596/10725*x*y*z^2 + 148136/5775*y^2*z^2 - 564/325*x*z^3 - 2936/825*y*z^3 + 43/75*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+------------------------------------------------FOUND IT-------------------------------------------------------
+The real variety of the quartic consists of 4 ovals.
+
+
+--------------
+Q1 := -x^2 + y^2 + z^2;
+Q2 := -13/3*x^2 + 11/2*y^2 + 10/17*z^2;
+Q3 := 19/2*x^2 + 20/19*y^2 - 7*z^2;
+Delta: 509/18*x^4 - 6397/114*x^2*y^2 + 2219/76*y^4 - 2203/102*x^2*z^2 + 4011/323*y^2*z^2 + 2123/289*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 4 ovals.
+
+----
+Iteration 1:
+Q1 := -x^2 - y^2 + z^2;
+Q2 := -43/57*x^2 - 93/14*y^2 + 85/39*z^2;
+Q3 := -8/57*x^2 + 221/14*y^2 - 50/13*z^2;
+Delta: 1393/3249*x^4 + 20483/798*x^2*y^2 + 11743/196*y^4 - 1196/171*x^2*z^2 - 8843/182*y^2*z^2 + 13075/1521*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 4 ovals.
+
+-
+Q1 := x^2 - y^2 - z^2;
+Q2 := -281/133*x^2 + 25/7*y^2 + 19/17*z^2;
+Q3 := -102/133*x^2 - 22/7*y^2 + 30/17*z^2;
+Delta: 92527/17689*x^4 - 11838/931*x^2*y^2 + 471/49*y^4 - 16402/2261*x^2*z^2 + 786/119*y^2*z^2 + 871/289*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 4 ovals.
+
+----
+
+Iteration 13:
+Q1 := x^2 + y^2 - z^2;
+Q2 := 366/143*x^2 - 298/51*y^2 - 128/221*z^2;
+Q3 := 216/143*x^2 - 280/51*y^2 + 285/221*z^2;
+Delta: 103068/20449*x^4 - 17192/663*x^2*y^2 + 103084/2601*y^4 - 86715/31603*x^2*z^2 - 127/11271*y^2*z^2 + 79369/48841*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 4 ovals.
+
+Iteration 22:
+Q1 := -x^2 - y^2 + z^2;
+Q2 := -99/10*x^2 + 75/17*y^2 + 59/35*z^2;
+Q3 := -19/5*x^2 + 50/17*y^2 + 2/5*z^2;
+Delta: 9421/100*x^4 - 7498/85*x^2*y^2 + 6475/289*y^4 - 5106/175*x^2*z^2 + 7338/595*y^2*z^2 + 2991/1225*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 4 ovals.
+
+
+Iteration 37:
+Q1 := -x^2 + y^2 + z^2;
+Q2 := -6/17*x^2 + y^2 - 18/143*z^2;
+Q3 := 247/289*x^2 - 26/121*y^2 - 17/11*z^2;
+Delta: 283/289*x^4 - 62085/34969*x^2*y^2 + 147/121*y^4 - 95518/41327*x^2*z^2 + 2373/1573*y^2*z^2 + 31927/20449*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 4 ovals.
+------------------------------------------
+Iteration 38:
+Q1 := -x^2 + y^2 + z^2;
+Q2 := 73/77*x^2 - 5*y^2 - 220/323*z^2;
+Q3 := -6/77*x^2 - 6*y^2 + 32/323*z^2;
+Delta: 4867/5929*x^4 - 1186/77*x^2*y^2 + 31*y^4 - 27718/24871*x^2*z^2 + 4106/323*y^2*z^2 + 38064/104329*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 4 ovals.
+
+----------------------
+
+Iteration 3:
+Q1 := -x^2 - 10*y^2 + 8*z^2;
+Q2 := 10*x^2 - 4*z^2;
+Q3 := 2*x^2 + 5*y^2 - 3*z^2;
+Delta: -102*x^4 - 25*x^2*y^2 - 50*y^4 + 99*x^2*z^2 + 70*y^2*z^2 - 40*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 28 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 4 ovals.
+
+-----
+
+Q1 := 3*x^2 - 2*x*y - y^2 - 10*x*z + 8*y*z - 4*z^2;
+Q2 := 2*x^2 + 4*x*y + 4*y^2 - 10*x*z - 8*y*z - 4*z^2;
+Q3 := -x^2 + 6*x*y + 3*y^2 - 8*x*z - 4*y*z + z^2;
+Delta: -7*x^4 + 4*x^3*y - 34*x^2*y^2 - 44*x*y^3 - 19*y^4 + 26*x^3*z + 48*x^2*y*z + 178*x*y^2*z + 92*y^3*z + 3*x^2*z^2 - 178*x*y*z^2 - 77*y^2*z^2 - 58*x*z^3 - 40*y*z^3 - 20*z^4
+
+-----
+
+Q1 := -x^2 - 6*x*y - y^2 - 8*x*z - 4*y*z;
+Q2 := -3*x^2 - 8*x*y + 4*x*z - 8*y*z + z^2;
+Q3 := 3*x^2 + 8*x*y + 3*y^2 + 10*x*z - 5*z^2;
+Delta: -12*x^4 - 74*x^3*y - 118*x^2*y^2 - 26*x*y^3 - 3*y^4 - 10*x^3*z - 120*x^2*y*z - 194*x*y^2*z - 12*y^3*z - 85*x^2*z^2 + 70*x*y*z^2 - 59*y^2*z^2 + 32*x*z^3 + 36*y*z^3 - z^4
+
+----\
+
+Q1 := 4*x*y + 4*y^2 + 6*x*z - 10*y*z - 2*z^2;
+Q2 := -3*x^2 - 10*x*y - 2*y^2 + 10*x*z - 10*y*z - 3*z^2;
+Q3 := 5*x^2 + 2*x*y - y^2 + 2*x*z - 8*y*z - 2*z^2;
+Delta: -9*x^4 - 40*x^3*y - 84*x^2*y^2 - 36*x*y^3 - 8*y^4 + 90*x^3*z + 110*x^2*y*z - 210*x*y^2*z - 62*y^3*z - 116*x^2*z^2 + 60*x*y*z^2 - 38*y^2*z^2 + 44*x*z^3 - 24*y*z^3 - 5*z^4
+
+Q1 := -2*x^2 - 10*x*y + 4*y^2 + 6*x*z + z^2;
+Q2 := -3*x^2 - 4*y^2 + 10*x*z + 10*y*z + z^2;
+Q3 := 2*x^2 - 4*y^2 - 4*x*z + 6*y*z - 5*z^2;
+Delta: -13*x^4 - 20*x^3*y - 8*x^2*y^2 + 40*x*y^3 - 32*y^4 + 80*x^3*z + 88*x^2*y*z - 20*x*y^2*z + 104*y^3*z - 106*x^2*z^2 - 114*x*y*z^2 - 116*y^2*z^2 - 54*x*z^3 - 14*y*z^3 - 6*z^4
+
+Q1 := 2*x^2 - 2*x*y + 5*y^2 + 10*x*z - 4*z^2;
+Q2 := -2*x^2 - 8*x*y + 3*y^2 + 2*x*z - 8*y*z + 2*z^2;
+Q3 := -2*x^2 - 5*y^2 - 6*x*z + 2*y*z + 3*z^2;
+Delta: -8*x^4 - 28*x^3*y - 72*x^2*y^2 + 58*x*y^3 - 34*y^4 - 24*x^3*z + 16*x^2*y*z - 224*x*y^2*z + 58*y^3*z - 42*x^2*z^2 + 78*x*y*z^2 - 41*y^2*z^2 + 46*x*z^3 + 24*y*z^3 - 16*z^4
+
+Q1 := x^2 - 2*x*y + 3*y^2 + 4*x*z - 4*y*z + 3*z^2;
+Q2 := 3*x^2 + 6*x*y + y^2 + 10*x*z + 10*y*z + 5*z^2;
+Q3 := 3*x^2 + 10*x*y - y^2 + 10*x*z + 2*z^2;
+Delta: -6*x^4 - 32*x^3*y - 54*x^2*y^2 + 20*x*y^3 - 4*y^4 - 38*x^3*z - 172*x^2*y*z - 154*x*y^2*z - 16*y^3*z - 79*x^2*z^2 - 274*x*y*z^2 - 107*y^2*z^2 - 62*x*z^3 - 108*y*z^3 - 19*z^4
+
+--------------------------------
+The Following Four Ovals records the number of ovals DeltaTilde(R) -> Delta(R) covers:
+
+Covers 3 ovals
+
+Q1 := -x^2 - 6*x*y - y^2 - 8*x*z - 4*y*z;
+Q2 := -3*x^2 - 8*x*y + 4*x*z - 8*y*z + z^2;
+Q3 := 3*x^2 + 8*x*y + 3*y^2 + 10*x*z - 5*z^2;
+Delta: -12*x^4 - 74*x^3*y - 118*x^2*y^2 - 26*x*y^3 - 3*y^4 - 10*x^3*z - 120*x^2*y*z - 194*x*y^2*z - 12*y^3*z - 85*x^2*z^2 + 70*x*y*z^2 - 59*y^2*z^2 + 32*x*z^3 + 36*y*z^3 - z^4
+
+Q1 := 10*x*y - 2*y^2 - 10*x*z - 2*z^2;
+Q2 := -x^2 + 8*x*y - 3*y^2 + 4*x*z - 4*y*z + z^2;
+Q3 := -2*x*y + 3*y^2 + 8*x*z + 10*y*z + 3*z^2;
+Delta: -x^4 + 16*x^3*y - 90*x^2*y^2 + 82*x*y^3 - 15*y^4 + 8*x^3*z + 28*x^2*y*z + 142*x*y^2*z - 44*y^3*z - 94*x^2*z^2 - 50*x*y*z^2 - 22*y^2*z^2 - 54*x*z^3 - 12*y*z^3 - 7*z^4
+
+Q1 := 4*x*y - 2*y^2 - 10*y*z + 2*z^2;
+Q2 := -2*x^2 + 10*x*y - y^2 - 8*x*z - 2*y*z - 3*z^2;
+Q3 := 2*x^2 - 10*x*y + 3*y^2 + 4*y*z;
+Delta: -4*x^4 + 48*x^3*y - 148*x^2*y^2 + 52*x*y^3 - 7*y^4 - 32*x^3*z + 132*x^2*y*z + 140*x*y^2*z - 42*y^3*z - 72*x^2*z^2 + 8*x*y*z^2 - 44*y^2*z^2 - 48*x*z^3 - 4*y*z^3 - 9*z^4
+
+Q1 := -2*x^2 + 3*y^2 - 10*x*z - 6*y*z - 5*z^2;
+Q2 := 5*x^2 + 10*x*y - 5*y^2 + 4*x*z + 8*y*z + 4*z^2;
+Q3 := 4*x^2 + y^2 + 10*x*z - z^2;
+Delta: -33*x^4 - 100*x^3*y - 40*x^2*y^2 + 100*x*y^3 - 22*y^4 - 100*x^3*z - 184*x^2*y*z - 100*x*y^2*z + 74*y^3*z - 174*x^2*z^2 - 204*x*y*z^2 - 32*y^2*z^2 - 72*x*z^3 - 58*y*z^3 - 11*z^4
+
+Q1 := -x^2 - 2*x*y + 2*y^2 - 2*x*z + 6*y*z + 3*z^2;
+Q2 := 5*x^2 - 6*x*y + 2*y^2 + 4*x*z + 10*y*z - z^2;
+Q3 := 5*x^2 - 6*x*y + 6*x*z - 6*y*z - 2*z^2;
+Delta: -30*x^4 + 56*x^3*y - 34*x^2*y^2 + 12*x*y^3 - 4*y^4 - 56*x^3*z - 16*x^2*y*z + 92*x*y^2*z - 52*y^3*z - x^2*z^2 - 58*x*y*z^2 - 136*y^2*z^2 + 30*x*z^3 - 10*y*z^3 - 7*z^4
+
+
+Covers 1 oval
+Q1 := 3*x^2 - 4*x*y - y^2 + 8*x*z - 4*y*z - 5*z^2;
+Q2 := 3*x^2 - 6*x*y + 5*y^2 + 8*x*z + 10*y*z - 4*z^2;
+Q3 := -3*x^2 - 4*x*y + 5*y^2 - 10*x*z + 6*y*z - 4*z^2;
+Delta: -18*x^4 + 36*x^3*y - 32*x^2*y^2 + 44*x*y^3 - 30*y^4 - 102*x^3*z + 74*x^2*y*z + 82*x*y^2*z - 126*y^3*z - 117*x^2*z^2 - 84*x*y*z^2 - 105*y^2*z^2 + 82*x*z^3 + 66*y*z^3 + 4*z^4
+
+
+Q1 := -8*x*y - y^2 + 10*x*z - 10*y*z - 2*z^2;
+Q2 := 5*x^2 + 8*x*y - 3*y^2 - 8*x*z - 2*z^2;
+Q3 := -5*x^2 - 4*x*y + 3*y^2 + 4*y*z;
+Delta: -25*x^4 - 40*x^3*y + 3*x^2*y^2 + 28*x*y^3 - 12*y^4 + 30*x^3*z + 138*x^2*y*z - 10*x*y^2*z - 34*y^3*z - 34*x^2*z^2 + 80*x*y*z^2 - 58*y^2*z^2 - 32*x*z^3 - 8*y*z^3 - 4*z^4
+
+Q1 := -2*x^2 + 8*x*y + 2*y^2 - 6*x*z + 2*y*z - 2*z^2;
+Q2 := -4*x^2 - 10*x*y - 8*x*z + 8*y*z - z^2;
+Q3 := -3*x^2 - 6*x*y - 2*y^2 - 8*x*z - 4*y*z - z^2;
+Delta: -10*x^4 - 92*x^3*y - 150*x^2*y^2 - 28*x*y^3 - 4*y^4 - 30*x^3*z - 122*x^2*y*z + 112*x*y^2*z - 12*y^3*z - 16*x^2*z^2 + 120*x*y*z^2 - 70*y^2*z^2 + 6*x*z^3 + 22*y*z^3 + z^4
+
+--------------------------------

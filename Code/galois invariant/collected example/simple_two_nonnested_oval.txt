@@ -1,0 +1,27 @@
+F=QQ;
+T.<x,y,z>=PolynomialRing(F);
+R.<u>=PolynomialRing(QQbar);
+
+Q1 =  x^2 - y^2 - z^2
+Q2 =  2*x^2 - 2*y^2
+Q3 =  -18*x^2 + 10*y^2 - z^2
+
+Delta = Q1*Q3 - Q2^2;
+
+print(Delta);
+
+h = I
+quartic = Delta(u, h, 0);
+
+print(quartic);
+print(Delta(u, -1*h, 0));
+
+root = list(map(lambda x: x[0], quartic.roots()));
+
+M = Matrix([[root[0], h, sqrt(Q1(root[0], h, 0)), sqrt(Q3(root[0], h, 0))],
+            [root[1], h, sqrt(Q1(root[1], h, 0)), sqrt(Q3(root[1], h, 0))],
+            [root[2], -1*h, sqrt(Q1(root[2], -1*h, 0)), sqrt(Q3(root[2], -1*h, 0))],
+            [root[3], -1*h, sqrt(Q1(root[3], -1*h, 0)), sqrt(Q3(root[3], -1*h, 0))]]);
+
+print(M)
+M.determinant()

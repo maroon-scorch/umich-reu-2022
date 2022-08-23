@@ -1,0 +1,58 @@
+Empty:
+
+Q1 := x^2 - y^2 - z^2;
+Q2 := -4*x^2 - 8*y^2 + 3/2*z^2;
+Q3 := -x^2 + 11/7*y^2 + 13/3*z^2;
+Delta: 17*x^4 + 430/7*x^2*y^2 + 459/7*y^4 - 52/3*x^2*z^2 - 380/21*y^2*z^2 + 79/12*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+
+This is the empty 
+
+Evaluated at: ( -8.58170970865268909573317808544 , 1)
+2 2
+Evaluated at: ( -0.594453172670551310406482737773 , 1)
+3 1
+Evaluated at: ( -0.0127434640178622146733046523367 , 1)
+2 2
+Evaluated at: ( 2.08170970865268909573317808543 , 1)
+1 3
+Evaluated at: ( 6.09445317267055131040648273778 , 1)
+0 4
+Evaluated at: ( 9.12310562561766054982140985598 , 1)
+1 3
+------------------------
+One oval:
+
+Q1 := -x^2 - y^2 - z^2;
+Q2 := x^2 + 10*x*y + y^2 + 14/3*x*z + 14/3*y*z + 1/2*z^2;
+Q3 := x^2 + 8/3*x*y + 1/7*y^2 + 5*x*z + 10*y*z + 1/2*z^2;
+
+Delta: 2*x^4 + 68/3*x^3*y + 722/7*x^2*y^2 + 68/3*x*y^3 + 8/7*y^4 + 43/3*x^3*z
+ + 338/3*x^2*y*z + 323/3*x*y^2*z + 58/3*y^3*z + 437/18*x^2*z^2 + 506/9*x*y*z^2 + 2951/126*y^2*z^2 + 29/3*x*z^3 + 44/3*y*z^3 + 3/4*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval
+
+Evaluated at: ( -4.19951853307029450243085860492 , 1)
+1 3
+Evaluated at: ( -0.260165581742382914765762251799 , 1)
+2 2
+Evaluated at: ( 7.71498824781040665016732223587 , 1)
+1 3
+Evaluated at: ( 16.4632625737993987184266210059 , 1)
+0 4
+---------------------------
+
+Two Nested Ovals, Two Non-nested Ovals, Three Ovals can all be found in the myriad of their disconnected examples.
+
+----------------------------
+
+Four Ovals:
+

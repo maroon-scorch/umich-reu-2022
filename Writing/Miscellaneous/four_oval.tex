@@ -1,0 +1,110 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{geometry}
+\geometry{letterpaper,margin=1in}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[all]{xy}
+\usepackage{hyperref}
+\usepackage{mathabx}
+\usepackage{tikz}
+\usepackage{mathabx}
+\usepackage[]{amsthm} %lets us use \begin{proof}
+\DeclareGraphicsRule{.tif}{pnf}{.png}{'convert #1 'dirname #1'/'basename #1.tif'.png}
+
+\newcommand{\bigzero}{\mbox{\normalfont\Large\bfseries 0}}
+
+\usepackage{subfig}
+
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{xspace}
+
+\newcommand{\Rbb}{\mathbb{R}}
+\newcommand{\Pbb}{\mathbb{P}}
+
+
+\setlength\parindent{0pt}
+
+\begin{document}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\theoremstyle{definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{definition}
+\newtheorem{goal}[theorem]{Goal}
+\theoremstyle{definition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{question}[theorem]{Question}
+\theoremstyle{definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\section{$\Delta(\Rbb)$ being Four Ovals implies $Y(\Rbb)$ is Connected}
+
+\begin{lemma}
+Let $f: X \to Y$ be a quotient map and the fiber of every point in $Y$ is connected. Then for each connected open or closed subset $U \subset Y$, $f^{-1}(U)$ is connected in $X$.
+\end{lemma}
+
+\begin{proof}
+Since $f^{-1}(U)$ is open/closed and saturated, the restriction of $f$ onto $f^{-1}(U)$ gives a quotient map $f': f^{-1}(U) \to U$. Since $f'$ is a quotient map with connected base and every fiber is connected, $f^{-1}(U)$ is connected.
+\end{proof}
+
+\begin{lemma}
+Let $f: X \to Y$ be a close map such that the fiber of every point in $f(X)$ is connected. Suppose $f(X)$ has a finite number of connected components, then $X$ and $f(X)$ has the same number of connected components.
+\end{lemma}
+
+\begin{proof}
+We can without loss take $Y = f(X)$ and just consider $f$ to be surjective. Let $m$, $n$ be the number of connected components in $X$ and $Y$ respectively. We first note that clearly $m \geq n$ since the continuous image of a connected set is connected.\\\\
+Now for each connected component $C_i, 1 < i < n$ in $f(X)$, $C_i$ is closed, so $f^{-1}(C_i)$ is also connected in $X$ by Lemma 1.1. The union of all $f^{-1}(C_i)$ is $X$, so $X$ has at most $n$ connected components, so $m \leq n$.\\\\
+Thus, we have that $m = n$.
+\end{proof}
+
+\begin{lemma}
+Suppose $(\Delta \leq 0)$ are non-nested ovals, then if $(Q_1 \geq 0)$ intersect with one of the ovals, then one of them has to contain the other.
+\end{lemma}
+
+\begin{proof}
+Let's denote the oval as $S$. Suppose $S$ contains $(Q_1 \geq 0)$, then we are done. Otherwise, we can assume that the $S$ does not contain $(Q_1 \geq 0)$.\\\\
+Now suppose for the sake of contradiction that $(Q_1 \geq 0)$ does not contain $S$, then there exist some point $p$ such that $Q_1(p) \geq 0$ and $\Delta(p) > 0$, then we know that $Q_1(p)Q_3(p) > Q_2^2(p) \geq 0$, so $Q_3(p) > 0$.
+We also know that $Q_3(q) < 0$ for all $q \in \Pbb^2(\Rbb) \setminus ((\Delta \leq 0) \cup (Q_1 \geq 0))$
+
+Since $S$ and $(Q_1 \geq 0)$ has some non-empty intersection, then their boundaries have to intersect, so there exist some point $p$ such that $Q_1(p) = 0$ and $\Delta(p) = 0$.
+\end{proof}
+
+\begin{lemma}
+Suppose $(\Delta \leq 0)$ are non-nested ovals, then if $Q_1$ is indefinite, and $(Q_1 \geq 0)$ intersects with $(\Delta \leq 0)$, then $(Q_1 \geq 0)$ contains only contain one oval. 
+\end{lemma}
+
+\begin{proof}
+From Lemma 0.3 we know that $(Q_1 \geq 0)$ contains all ovals it intersects with, so it suffices for us to show that it can't contain more than one oval. Now suppose it contains at least two ovals, and let $S$ be the ovals contained in $(Q_1 \geq 0)$. Then consider any connected component $C$ of $(Q_1 \geq 0) \setminus S$, then $C$ has some non-empty intersection with $(Q_1 = 0)$.\\\\
+Moreover, for all point $p \in int(C)$, $Q_3(p) > 0$, and for all
+\end{proof}
+
+\begin{proposition}
+If the topological type of $\Delta(\Rbb)$ is four ovals, then $Y(\Rbb)$ is connected.
+\end{proposition}
+
+\begin{proof}
+It suffices for us to show that $\pi_2(\Rbb)(Y(\Rbb))$ is connected, since every fiber of the image is connected and $\pi_2$ is a close map.\\\\
+If $Q_1$ is positive definite, then $\pi_2(\Rbb)(Y(\Rbb)) = \Pbb^2_{[u:v:w]}(\Rbb)$ is connected.\\\\
+If $Q_1$ is negative definite, then $\pi_2(\Rbb)(Y(\Rbb)) = (\Delta \leq 0)$ is either 4 ovals or the complement of four ovals. The latter case is a connected image, so suppose $\pi_2(\Rbb)(Y(\Rbb))$ is 4 ovals, then it has 4 connected components.\\\\
+Then Lemma 1.2 tells us that $Y(\Rbb)$ has $4$ connected components, but this also means that $\pi_1(Y(\Rbb))$ has 4 connected components. But this would imply that $det(M_1t_0^2 + 2M_2t_0t_1 + M_3t_1^2)$ has at least $8$ roots in $\Pbb^1_{[t_0:t_1]}(\Rbb)$, which is impossible since it can only have at most $6$ roots.\\\\
+If $Q_1$ is indefinite, then similar reasoning with Lemma 1.2 tells us that $\pi_2(\Rbb)(Y(\Rbb))$ can either have $2$ or $3$ connected components.\\\\
+Now if $Q_3$ is either negative or positive definite, then we can just switch $Q_1$ and $Q_3$ and we are done. So we can assume that $Q_3$ is indefinite.\\\\
+Now if $(\Delta \leq 0)$ is the complement of 4 ovals, then the image of $Y(\Rbb)$ can only be disconnected if $(Q_1 \geq 0)$ is disjoint from $(\Delta \leq 0)$. Since $(Q_1 \geq 0)$ is connected, this means that it has to be contained in one of the 4 ovals.\\\\
+Now consider any point $p \in \Pbb^2(\Rbb) \setminus ((\Delta \leq 0) \cup (Q_1 \geq 0))$. Then we know that $\Delta(p) > 0$ and $Q_1(p) < 0$, so $Q_1(p)Q_3(p) = \Delta(p) + Q_2(p)^2 > 0$ implies that $Q_3(p) < 0$.\\\\
+{\bf It seems like if $(\Delta \leq 0)$ is connected, then we can argue that $Y(\Rbb)$ is connected}.\\\\
+If $(\Delta \leq 0)$ is 4 ovals, 
+\end{proof}
+
+\end{document}

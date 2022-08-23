@@ -1,0 +1,72 @@
+Example 1:
+
+One Oval, \pi_1(R) surjective, DeltaTilde(R) is empty:
+
+Iteration 39:
+Q1: 3/2*x^2 + 4*x*y + y^2 + 4/3*x*z + 2/3*y*z + 2*z^2
+Q2: 4/3*x^2 + 10/3*x*y + 1/3*y^2 + 2*x*z + 2*y*z + 5/2*z^2
+Q3: 2*x^2 + 8/3*x*y + 2/3*y^2 + 2*x*z + 8/3*y*z + 2*z^2
+Delta: -11/9*x^4 - 28/9*x^3*y - 5/3*x^2*y^2 - 28/9*x*y^3 - 5/9*y^4 - 1/3*x^3*z + 16/9*x^2*y*z - 2/3*x*y^2*z - 16/9*y^3*z + x^2*z^2 + 58/9*x*y*z^2 + 5/9*y^2*z^2 + 10/3*x*z^3 + 10/3*y*z^3 + 9/4*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+
+Replace Q1 and Q3 by -Q1, -Q3, does not change topological type
+
+Now with -Q1 and -Q3:
+
+det(Y_{[t_1:t_0]}) has no solution in P^1(R), its numerical signature is (1,3), so it is surjective
+
+DeltaTilde(R) is empty by mathematica:
+
+f1[x_, y_, z_, r_,s_] := (-1*(3/2*x^2 + 4*x*y + y^2 + 4/3*x*z + 2/3*y*z + 2*z^2)) -r^2
+f2[x_, y_, z_, r_, s_] := (4/3*x^2 + 10/3*x*y + 1/3*y^2 + 2*x*z + 2*y*z + 5/2*z^2) - r*s
+f3[x_, y_, z_, r_,s_] := (-1*(2*x^2 + 8/3*x*y + 2/3*y^2 + 2*x*z + 8/3*y*z + 2*z^2)) - s^2
+
+Solve[{f1[x, y, z, r, 1] == 0, f2[x, y, z, r, 1] == 0, f3[x, y, z, r, 1] == 0}, {x, y, z, r}, Reals]
+Solve[{f1[x, y, z, 1, s] == 0, f2[x, y, z, 1, s] == 0, f3[x, y, z, 1, s] == 0}, {x, y, z, s}, Reals]
+-----------------------------------------------------------------
+Example 2:
+
+Empty Real Points, \pi_1(R) surjective, DeltaTilde(R) is empty:
+
+Q1: 8/7*x^2 + 3*y^2 + 2*z^2
+Q2: 7/5*x^2 + 3/5*y^2 + 10/7*z^2
+Q3: 2*x^2 + y^2 + 8/5*z^2
+Delta: -57/175*x^4 - 956/175*x^2*y^2 - 66/25*y^4 - 64/35*x^2*z^2 - 178/35*y^2*z^2 - 284/245*z^4
+
+# Output from PSV:
+# -57/175*x^4 - 956/175*x^2*y^2 - 66/25*y^4 - 64/35*x^2*z^2 - 178/35*y^2*z^2 - 284/245*z^4
+# Yes, it is smooth.
+# The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+# We have found:
+# 63 complex Gram matrices of rank 3. Stored in 'V'.
+# 15 real Gram matrices. Stored in 'Vreal'.
+# 0 psd Gram matrices. Stored in 'Vpsd'.
+# 8 nsd Gram matrices. Stored in 'Vnsd'.
+# The real variety of the quartic is empty.
+
+No Real Solutions, numerical signature is (1, 3)
+-----------------------------------------------------------------
+
+
+Share
+Iteration 1:
+Q1 := -x^2 + y^2 - 2*y*z - z^2;
+Q2 := 2/17*x^2 + 583/85*x*y - 475/187*y^2 - 2573/285*x*z + 301/65*y*z + 163/91*z^2;
+Q3 := 15/17*x^2 - 304/85*x*y + 300/187*y^2 + 1016/57*x*z - 82/65*y*z - 12/91*z^2;
+Delta: 259/289*x^4 - 2836/1445*x^3*y + 3748654/79475*x^2*y^2 - 45182/1445*x*y^3 + 169525/34969*y^4 + 25356/1615*x^3*z - 2264702/18525*x^2*y*z + 97470664/1154725*x*y^2*z - 21056/1105*y^3*z + 1484129984/17950725*x^2*z^2 - 19818228/734825*x*y*z^2 + 63918319/5530525*y^2*z^2 - 125506/8645*x*z^3 + 89104/5915*y*z^3 + 25477/8281*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 16 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 3 ovals.
+
+Maybe?
+
+

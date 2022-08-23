@@ -1,0 +1,31 @@
+Example 4.6(2)
+
+Q1 = -8*x*y - y^2 + 10*x*z - 10*y*z - 2*z^2 
+Q2 = 5*x^2 + 8*x*y - 3*y^2 - 8*x*z - 2*z^2
+Q3 = -5*x^2 - 4*x*y + 3*y^2 + 4*y*z
+
+
+Example 4.3(4)
+
+Q1 = 9*x^2 + 4*x*y + 6*y^2 - 300*x*z + 6*y*z + 72*z^2
+Q2 = 3*x^2 + 4*x*y + 6*y^2 - 240*x*z + 90*y*z - 78*z^2
+Q3 = 8*x^2 + 30*x*y + 6*y^2 + 234*x*z + 180*y*z - 24*z^2
+
+(\(\bb Q\)-rational example where image of \(\Deltatilde(\bb R)\) is two ovals)
+Define
+\lena{I replaced the previous example with the coefficients all divided by 6}
+\begin{gather*}Q_1 \coloneqq 9 u^2 + 4 uv + 6 v^2 - 300 uw + 6 vw + 72 w^2, \quad
+Q_2 \coloneqq 3 u^2 + 4 uv + 6 v^2 - 240 uw + 90 vw - 78 w^2, \\
+Q_3 \coloneqq 8 u^2 + 30 uv + 6 v^2 + 234 uw + 180 vw - 24 w^2\end{gather*}
+%\[Q_1 \coloneqq 54 u^2 + 24 uv + 36 v^2 - 1800 uw + 36 vw + 432 w^2\]
+%\[Q_2 \coloneqq 18 u^2 + 24 uv + 36 v^2 - 1440 uw + 540 vw - 468 w^2\]
+%\[Q_3 \coloneqq 48 u^2 + 180 uv + 36 v^2 + 1404 uw + 1080 vw - 144 w^2\]
+and let \(\Deltatilde\to\Delta\) and \(Y\) be as defined in Section~\ref{sec:DoubleCover}. Then \([0: 1: 0: 6: 6]\) exhibits a \(\bb Q\)-point of \(\Deltatilde \), so \(Y\) is \(\bb Q\)-rational by Proposition~\ref{prop:Yproperties}\eqref{item:Deltatilde-point-section}.
+One can check \todo{need to add check} that \(\Deltabar(\bb R)=\emptyset\) as defined in Section 2.3, so by Lemma ~\ref{lem:pi1surjDeltatildeEmpty} the map \(\piDeltabar(\bb R)\) is surjective and has image of two ovals.
+
+One can check that the associated genus 2 curve has two real Weierstrass points.
+
+Q1 = 3*x^2 + y^2 - 3*z^2;
+Q2 = 2*x^2 + 2*y^2 - 9*z^2;
+Q3 = 2*x^2 + 2*y^2 + 5*z^2;
+[0, 1, 0, 2, 2]

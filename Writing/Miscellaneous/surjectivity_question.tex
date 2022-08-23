@@ -1,0 +1,177 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{geometry}
+\geometry{letterpaper,margin=1in}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[all]{xy}
+\usepackage{hyperref}
+\usepackage{mathabx}
+\usepackage{tikz}
+\usepackage{mathabx}
+\usepackage[]{amsthm} %lets us use \begin{proof}
+\DeclareGraphicsRule{.tif}{pnf}{.png}{'convert #1 'dirname #1'/'basename #1.tif'.png}
+
+\newcommand{\bigzero}{\mbox{\normalfont\Large\bfseries 0}}
+
+\usepackage{subfig}
+
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{xspace}
+
+\newcommand{\Rbb}{\mathbb{R}}
+\newcommand{\Pbb}{\mathbb{P}}
+
+
+\setlength\parindent{0pt}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+
+\begin{document}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\theoremstyle{definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{definition}
+\newtheorem{goal}[theorem]{Goal}
+\theoremstyle{definition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{question}[theorem]{Question}
+\theoremstyle{definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\begin{theorem}
+The following are equivalent:
+\begin{itemize}
+    \item $\pi_2(\Rbb): Y(\Rbb) \to \Pbb^{2}_{[u, v, w]}(\Rbb)$ is surjective
+    \item For all $[u, v, w] \in \Pbb^2_{[u, v, w]}(\Rbb)$, the correspondent quadratic form
+    \[z^2 = Q_1(u, v, w)t_0^2 + 2Q_2(u, v, w)t_0 t_1 + Q_3(u, v, w) t_1^2\]
+    has a real solution
+    \item For all $[u, v, w] \in \Pbb^2_{[u, v, w]}(\Rbb)$, the matrix
+    \[\begin{pmatrix}
+    Q_1(u, v, w) & Q_2(u, v, w) & 0\\ 
+    Q_2(u, v, w) & Q_3(u, v, w) & 0\\
+    0 & 0 & -1
+    \end{pmatrix}\]
+    is not negative-definite
+    \item For all $[u, v, w] \in \Pbb^2_{[u, v, w]}(\Rbb)$, $Q_1(u, v, w) \geq 0$ or $\Delta(u, v, w) \leq 0$
+\end{itemize}
+If there exist some $[u_0, v_0, w_0] \in \Pbb^2_{[u, v, w]}(\Rbb)$ such that $Q_1(u, v, w) < 0$ and $\Delta(u, v, w) > 0$, then $\pi_2(\Rbb)$ is not surjective on $[u_0, v_0, w_0]$ 
+\end{theorem}
+
+\begin{proposition}
+$\pi_1(\Rbb): Y(\Rbb) \to \Pbb^{1}_{[t_0, t_1]}(\Rbb)$ does not imply $\pi_2(\Rbb): Y(\Rbb) \to \Pbb^{2}_{[u, v, w]}(\Rbb)$ is surjective.
+\end{proposition}
+
+\begin{proof}
+Consider the following Quadratic Forms:
+\begin{itemize}
+    \item $Q1 = -1*(3/11*u^2 + 14*u*v + 8/11*v^2 + 24/13*u*w + 2/13*v*w + 5/7*w^2)$
+    \item $Q2 = 4/7*u^2 + 6*u*v + 2/3*v^2 + 12/13*u*w + 6*v*w + 3*w^2$
+    \item $Q3 = -1*(2*u^2 + 4/7*u*v + 1/7*v^2 + 11*u*w + 24/11*v*w + 3/11*w^2)$
+\end{itemize}
+We first note that the induced $\pi_2(\Rbb)$ is not surjective onto $[1, 0, 0]$ since by Theorem 0.1
+\[Q_1(1, 0, 0) = -\frac{3}{11} < 0\]
+\[\Delta(1, 0, 0) = (-\frac{3}{11})(-2) - (\frac{4}{7})^2 = \frac{6}{11} - \frac{16}{49} = \frac{118}{539} > 0\]
+But computing the numerical signature for $\pi_1(\Rbb)$ shows that $\pi_1(\Rbb)$ is surjective onto $\Pbb^{1}_{[t_0, t_1]}(\Rbb)$:
+\begin{lstlisting}[language=Matlab, caption=$\pi_2(\mathbb{R})$ is Not Surjective]
+Roots:  
+[ <-0.947412429179734260860628575406, 1>,
+<-0.0668965206372537373058194027354, 1>,
+<0.144493936058127884925785447134, 1>,
+<0.799785515079943374910685955052, 1>,
+<2.16394992543614689928080382193, 1>,
+<5.88640499958028118487838169057, 1> ]
+------------------------
+Evaluated at: ( -0.507154474908493999083223989071 , 1)
+2 2
+Evaluated at: ( 0.0387987077104370738099830221994 , 1)
+1 3
+Evaluated at: ( 0.472139725569035629918235701093 , 1)
+2 2
+Evaluated at: ( 1.48186772025804513709574488849 , 1)
+1 3
+Evaluated at: ( 4.02517746250821404207959275624 , 1)
+2 2
+Evaluated at: ( 6.88640499958028118487838169057 , 1)
+1 3
+\end{lstlisting}
+\end{proof}
+
+\begin{proposition}
+$\pi_2(\Rbb): Y(\Rbb) \to \Pbb^{2}_{[u, v, w]}(\Rbb)$ does not imply $\pi_1(\Rbb): Y(\Rbb) \to \Pbb^{1}_{[t_0, t_1]}(\Rbb)$ is surjective.
+\end{proposition}
+
+\begin{proof}
+Consider the following Quadratic Forms:
+\begin{itemize}
+    \item $Q_1 = u^2 + v^2 + w^2$
+    \item $Q_2 = -99/34*u^2 - 51/77*v^2 - 19/22*w^2$
+    \item $Q3 = 70/17*u^2 - 16/77*v^2 + 6/11*w^2$
+\end{itemize}
+Since $Q_1$ is positive definite, $\pi_2(\Rbb)$ is surjective onto $\Pbb^{2}_{[u, v, w]}(\Rbb)$. However, explicitly computing the numerical signature for $\pi_1(\Rbb)$ shows that:
+\begin{lstlisting}[language=Matlab, caption=$\pi_1(\mathbb{R})$ is Not Surjective]
+Roots:
+[ <-0.141704243748784752857711368579, 1>,
+<0.415961009009267967193354026598, 1>,
+<0.823529411764705882352941176432, 1>,
+<1.31131171826345930553391870091, 1>,
+<1.46637956842410942818238669305, 1>,
+<5.00000000000000000000000000001, 1> ]
+------------------------
+Evaluated at: ( 0.137128382630241607167821329010 , 1)
+2 2
+Evaluated at: ( 0.619745210386986924773147601515 , 1)
+1 3
+Evaluated at: ( 1.06742056501408259394342993867 , 1)
+0 4
+Evaluated at: ( 1.38884564334378436685815269698 , 1)
+1 3
+Evaluated at: ( 3.23318978421205471409119334653 , 1)
+2 2
+Evaluated at: ( 6.00000000000000000000000000001 , 1)
+3 1
+\end{lstlisting}
+So $\pi_1(\Rbb)$ is not surjective.
+\end{proof}
+
+\end{document}

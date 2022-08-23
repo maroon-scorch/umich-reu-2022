@@ -1,0 +1,317 @@
+Collected As Of: July 21st, 2022
+##############################################################
+Section 3:
+##############################################################
+Example 3.7 
+
+Q1 := -x^2-y^2-z^2;
+Q2 := -x^2 - y^2 + z^2;
+Q3 := -2*x^2 - 9*y^2 - 3*z^2;
+
+Delta and DeltaTilde Smooth: Yes
+Curve: -(-T^6 - 2*T^5 - 10*T^4 - 4*T^3 - 19*T^2 - 30*T - 54)
+Number of Real Components: 1
+
+All fibers of pi_1 have signature (0, 4)
+--------------------
+Example 3.8(1)
+
+Q1 := x^2 + y^2 - 3*z^2;
+Q2 := -3*x^2 - 2*x*y - 4*y^2 + 2*z^2;
+Q3 := -4*x^2 - 5*y^2;
+
+Delta and DeltaTilde Smooth: Yes
+Curve: 3*T^6 - 46*T^5 + 161*T^4 + 46*T^3 - 188*T^2 - 80*T
+Roots: -0.782575798586260517116372809370, -0.474903869298397032767657020681,
+0, 4/3, 5.53509486327088902572736823376, 9.72238480461376852415666159629 
+
+Number of Real Components: 3
+
+1 at > 9.7224 and  < -0.78258
+1 at -0.475 to 0
+1 at 1.333 to 5.5351
+--------------------
+Example 3.8(2)
+
+Q1 :=  x^2 + y^2 - z^2;
+Q2 := x^2 + y^2;
+Q3 := -24*x^2 - 15*y^2 + z^2;
+
+Discrminant Curve: -25*x^4 - 41*x^2*y^2 - 16*y^4 + 25*x^2*z^2 + 16*y^2*z^2 - z^4
+
+Delta and DeltaTilde Smooth: Yes
+Curve: T^6 + 4*T^5 - 36*T^4 - 82*T^3 + 395*T^2 + 78*T - 360
+Roots: -6, -5, -1, 1, 3, 4
+
+Number of Connected Real Components: 3
+1 from > 4 and < -6
+1 from -5 to -1
+1 from 1 to 3
+--------------------
+Example 3.9
+
+Q1 := -x^2 - y^2 - z^2;
+Q2 := -5*x^2 + 5*z^2;
+Q3 := -24*x^2 + 4*y^2 - 24*z^2;
+
+Delta and DeltaTilde Smooth: Yes
+Curve: T^6 - 56*T^4 + 784*T^2 - 2304
+Roots: -6, -4, -2, 2, 4, 6
+
+Disconnected: Yes
+
+##############################################################
+Section 4:
+##############################################################
+Example 4.1 - Delta(R) empty
+
+1. Example 3.7 but with the Twisted Double Cover:
+Q1 := x^2+y^2+z^2;
+Q2 := -x^2 - y^2 + z^2;
+Q3 := 2*x^2 + 9*y^2 + 3*z^2;
+-T^6 + 2*T^5 - 10*T^4 + 4*T^3 - 19*T^2 + 30*T - 54
+
+Fiber is all (3, 1)
+
+2. Alternative Example
+Q1 := 2*x^2 + 3*y^2 + 5*z^2;
+Q2 := x^2 + 2*y^2 + 3*z^2;
+Q3 := 2*x^2 + 4*y^2 + 2*z^2;
+
+Fiber is all (3, 1)
+
+--------------------
+Example 4.2 - Delta(R) one oval
+
+(1) image is empty:
+
+Q1 := -3*x^2 - 10*x*y + 3*y^2 - 8*x*z + 8*y*z - z^2
+Q2 := x^2 - 2*x*y - 3*y^2 + 2*y*z + 3*z^2
+Q3 := -2*x^2 + 6*x*y + y^2 - 6*x*z - 6*y*z - 3*z^2
+
+All fiber have signature (1, 3)
+
+(2) image is one oval:
+
+Q1 := 12*x^2 + 96*x*y + 36*y^2 - 7*z^2
+Q2 := 36*x^2 + 180*x*y + 36*y^2 - z^2
+Q3 := 90*x^2 + 96*x*y + 36*y^2 + 7*z^2
+
+[0: 1: 0: 6: 6] is a Q-point
+
+--------------------
+Example 4.3 - Delta(R) 2 non-nested ovals
+
+(1) image is empty:
+
+Q1 = -5*x^2 + 10*x*y + 5*y^2 + 10*x*z + 8*y*z;
+Q2 = x^2 - 10*x*y - 2*y^2 + 10*y*z + 4*z^2;
+Q3 = 2*x^2 - 4*x*y - 4*y^2 - 8*x*z + 8*y*z + 2*z^2;
+
+Real Weierstrass point at 0.394596856836734, 1.22782028827428
+Signature:
+Evaluated at 0.811208572555506
+(2, 2)
+Evaluated at 2.22782028827428
+(1, 3)
+
+(2) image is one oval: 
+
+(old)
+Q1 = 2*x^2 - 9*y^2 + 13*z^2
+Q2 = x^2 - 6*y^2 - 10*z^2
+Q3 = x^2 - 8*y^2 + 6*z^2
+
+updated 7/25:
+Q1 := 2*x^2 - 9*y^2 - 5*z^2;
+Q2 := x^2 - 6*y^2 - 4*z^2;
+Q3 := x^2 - 8*y^2;
+
+update 7/26:
+Q1 := 2*x^2 - 9*y^2 + 12*x*z - 68*y*z + 70*z^2;
+Q2 := x^2 - 6*y^2 + 15*x*z - 19*y*z - 10*z^2;
+Q3 := x^2 - 8*y^2 - 50*x*z + 51*y*z - 16*z^2;
+
+[3: 1: 0: 3: 1] is a Q-point
+[2: 1: 0: 1 : -2] is a Q-point of the Twisted double Cover
+
+(3): Twisted double cover of (1)
+
+-----------------------
+Example 4.4 - Delta(R) 2 nested ovals
+
+(1) image is empty:
+
+Q1 = -4*x^2 - 2*x*y - 2*y^2 - 10*x*z + 4*y*z - 4*z^2;
+Q2 = x^2 - 4*x*y - 3*y^2 - 6*x*z + 2*y*z + 2*z^2;
+Q3 = -x^2 - 6*x*y + 8*x*z - 6*y*z - 3*z^2;
+
+No Real Weierstrass points
+Signature: (1, 3)
+
+(2) image is one oval:
+
+Q1 = 2*x^2 - 9*y^2 + 13*z^2
+Q2 = x^2 - 6*y^2 - 3*z^2
+Q3 = x^2 - 8*y^2 + 6*z^2
+
+Note that the z^2 coefficient of Q2 differs from Example 4.3(2)
+
+(3): Twisted double cover of (1)
+-----------------------
+Example 4.5 - Delta(R) 3 ovals
+
+(1) image is empty:
+
+Q1 = -3*x^2 - 4*x*y + y^2 + 10*x*z + 4*y*z - 2*z^2
+Q2 = 5*x^2 + 4*x*y - 2*y^2 + 8*x*z - 6*y*z + 5*z^2
+Q3 = -2*x^2 + 2*x*y - 3*y^2 - 8*x*z + 2*y*z - 2*z^2
+
+Real Weierstrass Points: [-7.60662642512178, 0.310454424536090, 0.955466525871217, 4.06172431845539]
+Evaluated at -3.64808600029284
+(1, 3)
+Evaluated at 0.632960475203653
+(2, 2)
+Evaluated at 2.50859542216330
+(1, 3)
+Evaluated at 5.06172431845539
+(2, 2)
+
+(2) image is one oval:
+
+Q1 = -4*x^2 + 2*y^2 + 2*z^2;
+Q2 = 3*x^2 - y^2 - 3*z^2;
+Q3 = -2*x^2 + 2*y^2 + 2*z^2;
+
+Q-point [0: 1: 1: 2: -2]
+
+(3): Twisted double cover of (2)
+
+(4): Twisted double cover of (1)
+
+-----------------
+Example 4.6 - Delta(R) 4 ovals
+
+(1) image is empty:
+
+Q1 = x^2 + 10*y^2 - 8*z^2
+Q2 = 10*x^2 - 4*z^2
+Q3 = -2*x^2 - 5*y^2 + 3*z^2
+
+Real Weierstrass Points: [-20.0995049383621, -1.29056941504209, -0.707106781186548, 0.0995049383620780, 0.290569415042095, 0.707106781186548]
+Evaluated at -10.6950371767021
+(1, 3)
+Evaluated at -0.998838098114321
+(2, 2)
+Evaluated at -0.303800921412235
+(1, 3)
+Evaluated at 0.195037176702086
+(2, 2)
+Evaluated at 0.498838098114321
+(1, 3)
+Evaluated at 1.70710678118655
+(2, 2)
+
+(2) image is one oval:
+
+Q1 := -8*x*y - y^2 + 10*x*z - 10*y*z - 2*z^2;
+Q2 := 5*x^2 + 8*x*y - 3*y^2 - 8*x*z - 2*z^2;
+Q3 := -5*x^2 - 4*x*y + 3*y^2 + 4*y*z;
+
+No Q-points
+
+(3) image is two ovals:
+
+Q1 = -2*x^2 - 2*y^2 + z^2;
+Q2 = 4*x^2 - 9*y^2 - y*z + 2*z^2;
+Q3 = -3*x^2 + 9*y^2 + 8*y*z + 4*z^2;
+
+[0: 0: 1: 1: 2] is a Q-point
+
+(4) image is 3 ovals:
+
+Q1 = -4*x^2 - x*y + 9*y^2 - 19*x*z + 6*y*z - 20*z^2
+Q2 = 4*x^2 - 14*x*y + 6*y^2 + 21*x*z + 38*y*z + 38*z^2
+Q3 = x^2 - 6*x*y + 4*y^2 - 21*x*z + 28*y*z + 49*z^2
+
+[0: 1: 0: 3: 2] is a Q-point
+[2: 1: 0: 3: -2] is a Q-point of twisted double cover
+
+(5): Twisted double cover of (1)
+-----------------
+##############################################################
+Section 5:
+##############################################################
+
+Example 5.1
+
+Q1 = s*x^2 - 5*y^2 + 4*x*z - 5*y*z - 2*z^2;
+Q2 = x^2 + y^2 + 10*x*z + 2*y*z + 3*z^2;
+Q3 = -x^2 - y^2 - 10*x*z - 2*y*z - 4*z^2;
+
+
+
+Example 5.2
+
+    Q1 = -x^2 - y^2 + s*x*y - z^2; 
+    Q2 = -5*x^2 + 5*z^2;
+    Q3 = -24*x^2 + 4*y^2 - 24*z^2;
+
+Example 5.3
+
+Q1 = s*x^2 + y^2 - z^2;
+Q2 = -43/57*x^2 - 93/14*y^2 + 85/39*z^2;
+Q3 = 8/57*x^2 - 221/14*y^2 + 50/13*z^2;
+
+-----------------
+Q1 := -8*x*y - y^2 + 10*x*z - 10*y*z - 2*z^2;
+Q2 := 5*x^2 + 8*x*y - 3*y^2 - 8*x*z - 2*z^2;
+Q3 := -5*x^2 - 4*x*y + 3*y^2 + 4*y*z;
+
+Q1 := 5*x^2 - 10*x*y - 5*y^2 - 10*x*z - 8*y*z;
+Q2 := x^2 - 10*x*y - 2*y^2 + 10*y*z + 4*z^2;
+Q3 := -2*x^2 + 4*x*y + 4*y^2 + 8*x*z - 8*y*z - 2*z^2;
+
+Q1 := -1*(4*x^2 + 2*x*y + 2*y^2 + 10*x*z - 4*y*z + 4*z^2);
+Q2 := x^2 - 4*x*y - 3*y^2 - 6*x*z + 2*y*z + 2*z^2;
+Q3 := -1*(x^2 + 6*x*y - 8*x*z + 6*y*z + 3*z^2);
+
+Q1 := -1*(3*x^2 + 4*x*y - y^2 - 10*x*z - 4*y*z + 2*z^2);
+Q2 := 5*x^2 + 4*x*y - 2*y^2 + 8*x*z - 6*y*z + 5*z^2;
+Q3 := -1*(2*x^2 - 2*x*y + 3*y^2 + 8*x*z - 2*y*z + 2*z^2);
+
+Q1 = -1*(-x^2 - 10*y^2 + 8*z^2);
+Q2 = -(10*x^2 - 4*z^2);
+Q3 = -1*(2*x^2 + 5*y^2 - 3*z^2);
+
+--------------------
+
+Q1 = -6/19*x^2 + 13/19*x*y - 101/26*y^2 - 10*y*z - 10*z^2
+Q2 = 13/29*x^2 + 19/22*x*y - 63/44*y^2 - 3/11*x*z - y*z - z^2
+Q3 = -17/13*x^2 + 521/442*x*y - 625/1012*y^2 - 3/13*x*z + 13/11*y*z + 13/11*z^2
+
+Q1 = -x^2 - y^2 - z^2
+Q2 = -3*x^2 + y^2 + 5*z^2
+Q3 = -8*x^2 - 24*z^2
+------------------------
+4.5
+
+Q1 = -3*x^2 - 4*x*y + y^2 + 10*x*z + 4*y*z - 2*z^2
+Q2 = 5*x^2 + 4*x*y - 2*y^2 + 8*x*z - 6*y*z + 5*z^2
+Q3 = -2*x^2 + 2*x*y - 3*y^2 - 8*x*z + 2*y*z - 2*z^2
+
+Q1 = 2*x^2 - 9*y^2 + x*z - 82*z^2
+Q2 = x^2 - 6*y^2 + 74*y*z - 49*z^2
+Q3 = x^2 - 8*y^2 + 37*x*z + 79*z^2
+
+----------------------------
+
+4.6
+
+Q1 := -8*x*y - y^2 + 10*x*z - 10*y*z - 2*z^2;
+Q2 := 5*x^2 + 8*x*y - 3*y^2 - 8*x*z - 2*z^2;
+Q3 := -5*x^2 - 4*x*y + 3*y^2 + 4*y*z;
+
+Q1 := 12*x^2 + 96*x*y + 36*y^2 + 5*x*z - 2*y*z
+Q2 := 36*x^2 + 180*x*y + 36*y^2 - 2*x*z - 5*y*z + 4*z^2
+Q3 := 90*x^2 + 96*x*y + 36*y^2 - 4*x*z + 5*y*z - 3*z^2

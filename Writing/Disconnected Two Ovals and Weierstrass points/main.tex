@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{geometry}
+\geometry{letterpaper,margin=1in}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[all]{xy}
+\usepackage{hyperref}
+\usepackage{mathabx}
+\usepackage{tikz}
+\usepackage{mathabx}
+\usepackage[]{amsthm} %lets us use \begin{proof}
+\DeclareGraphicsRule{.tif}{pnf}{.png}{'convert #1 'dirname #1'/'basename #1.tif'.png}
+
+\newcommand{\bigzero}{\mbox{\normalfont\Large\bfseries 0}}
+
+\usepackage{subfig}
+
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{xspace}
+
+\newcommand{\Rbb}{\mathbb{R}}
+\newcommand{\Pbb}{\mathbb{P}}
+
+\begin{document}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\theoremstyle{definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{definition}
+\newtheorem{goal}[theorem]{Goal}
+\theoremstyle{definition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{question}[theorem]{Question}
+\theoremstyle{definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\begin{proposition}
+    If $Y_{\Tilde{\Delta}/\Delta}(\Rbb)$ has two connected components and the hyper-elliptic curve $\Gamma$ has six real Weierstrass points, then $\Delta(\Rbb)$ is two nested ovals.
+\end{proposition}
+
+\begin{proof}
+It suffices for us to show that $\Delta(\Rbb)$ is not two non-nested ovals, so we will assume for the sake of contradiction that it is. Since $\Gamma$ has six real Weierstrass points and $Y_{\Tilde{\Delta}/\Delta}(\Rbb)$ has two connected components, the signatures of $\pi_1(\Rbb)$ must follow $(0, 4), (1, 3), (0, 4), (1, 3), (2, 2), (1, 3)$. In particular, $\pi_1(\Rbb)$ contains some point $t$ whose fiber has signature $(2, 2)$.\\\\
+Theorem 2.6(1) of FSJVV then tells us that, we can without loss choose $Q_1$ such that its associated matrix $M_1$ has 1 negative eigenvalue and 2 positive eigenvalues. Geometrically, $(Q_1 \geq 0)$ is the closure of the compliment of a disk.\\\\
+Since $Q_1$ is indefinite and $Y_{\Tilde{\Delta}/\Delta}(\Rbb)$  is disconnected, the image of $Y_{\Tilde{\Delta}/\Delta}(\Rbb)$ under $\pi_2(\Rbb)$ has to be $(Q_1 Q_3 - Q_2^2 \leq 0)$, meaning that $(Q_1 > 0)$ is a subset of $(Q_1 Q_3 - Q_2^2 \leq 0)$.\\\\
+However, when $\Delta(\Rbb)$ is two non-nested ovals, since $(Q_1 Q_3 - Q_2^2 \leq 0)$ is the union of two disjoint disks say $D_1, D_2$, but $(Q_1 > 0) = D_3^c$ for some disk $D_3$ that's contained in either $D_1$ or $D_2$. But this means that $Y_{\Tilde{\Delta}/\Delta}(\Rbb) = D_1 \cup D_2 \cup D_3^c = \Pbb^2_\Rbb$, so we have a contradiction.
+\end{proof}
+
+\begin{proposition}
+       If $Y_{\Tilde{\Delta}/\Delta}(\Rbb)$ has two connected components and the hyper-elliptic curve $\Gamma$ has four real Weierstrass points, then $\Delta(\Rbb)$ is two non-nested ovals. 
+\end{proposition}
+
+{\bf educated guess:}
+\begin{proof}
+It suffices for us to show that $\Delta(\Rbb)$ is not two nested ovals, so we will assume for the sake of contradiction that it is. Since $\Gamma$ has four real Weierstrass points and $Y_{\Tilde{\Delta}/\Delta}(\Rbb)$ has two connected components, the signatures of $\pi_1(\Rbb)$ must follow $(0, 4), (1, 3), (0, 4), (1, 3)$.\\\\
+We want to show to show that disconnected two nested ovals implies the existence of a fiber with signature $(2, 2)$. I guess maybe the idea is that we can modify the $Q_1, Q_2, Q_3$ up to $PGL_2$-action such that $(Q_1 \geq 0)$ becomes the compliment of a disk (or equivalently $Q_1$'s associated matrix $M_1$ has signature $(2, 1)$). The intuition for this guess is that as long as $(Q_1 \geq 0) \subset (Q_1 Q_3 - Q_2^2 \leq 0)$, we could try to modify it to whatever we want?
+\end{proof}
+
+\begin{question}
+Let $Q_1, Q_2, Q_3$ be the associated quadratic forms of $Y_{\Tilde{\Delta}/\Delta}(\Rbb)$, let $Q_4$ be a quadratic form such that $(Q_4 \geq 0) \cup (Q_1 Q_3 - Q_2^2 \leq 0) = (Q_1 \geq 0) \cup (Q_1 Q_3 - Q_2^2 \leq 0)$, does there exist a $PGL_2$-action on $Q_1, Q_2, Q_3$ such that the new $Q_1$ has the same signature as $Q_4$? (This might be too general)
+\end{question}
+
+
+\end{document}

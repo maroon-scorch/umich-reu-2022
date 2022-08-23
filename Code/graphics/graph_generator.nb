@@ -1,0 +1,10 @@
+z=1; 
+
+
+p1 = RegionPlot[-102*x^4 - 25*x^2*y^2 - 50*y^4 + 99*x^2*z^2 + 70*y^2*z^2 - 40*z^4 <= 0, {x, -3, 3}, {y, -2, 2}, PlotStyle ->{ Blue, Opacity[0.3]}, BoundaryStyle -> Directive[Blue, Thick], PlotPoints -> 40]
+
+
+p2 = RegionPlot[x^2 + 10*y^2 - 8*z^2 >= 0, {x, -3, 3}, {y, -2, 2}, PlotStyle ->{ Red, Opacity[0.3]}, BoundaryStyle -> Directive[Red, Thick]]
+
+
+Show[p1, p2, PlotRange->All,PlotLabel -> Style["Example 4.6(1)", FontSize -> 18], Axes -> True , AxesLabel -> {u, v}]

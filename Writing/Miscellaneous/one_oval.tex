@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{geometry}
+\geometry{letterpaper,margin=1in}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[all]{xy}
+\usepackage{hyperref}
+\usepackage{mathabx}
+\usepackage{tikz}
+\usepackage{mathabx}
+\usepackage[]{amsthm} %lets us use \begin{proof}
+\DeclareGraphicsRule{.tif}{pnf}{.png}{'convert #1 'dirname #1'/'basename #1.tif'.png}
+
+\newcommand{\bigzero}{\mbox{\normalfont\Large\bfseries 0}}
+
+\usepackage{subfig}
+
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{xspace}
+
+\newcommand{\Rbb}{\mathbb{R}}
+\newcommand{\Pbb}{\mathbb{P}}
+
+
+\setlength\parindent{0pt}
+
+\begin{document}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\theoremstyle{definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{definition}
+\newtheorem{goal}[theorem]{Goal}
+\theoremstyle{definition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{question}[theorem]{Question}
+\theoremstyle{definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\begin{lemma}
+Let $Y_{\Tilde{\Delta}/\Delta}$ be determined by
+\[z^2 = Q_1(u, v, w)t_0^2 + 2Q_2(u, v, w)t_0 t_1 + Q_3(u, v, w) t_1^2\]
+Let $X_{\Tilde{\Delta}/\Delta}$ be determined by
+\[z^2 = Q_3(u, v, w)t_0^2 + 2Q_2(u, v, w)t_0 t_1 + Q_1(u, v, w) t_1^2\]
+Then $Y(\Rbb)$ is connected if and only if $X(\Rbb)$ is connected.
+\end{lemma}
+
+\begin{proof}
+The map $f: Y(\Rbb) \to X(\Rbb)$ that swaps $t_0$ and $t_1$ is a homeomorphism.
+\end{proof}
+
+\begin{lemma}
+$\pi_2(\Rbb)(Y(\Rbb)) = \{p \in \Pbb^2_{[u:v:w]}(\Rbb)\ |\ Q_1(p) \geq 0 \text{ or } \Delta(p) \leq 0\}$
+\end{lemma}
+
+\begin{proposition}
+If the topological type of $\Delta(\Rbb)$ is one oval, then $Y(\Rbb)$ is connected.
+\end{proposition}
+
+\begin{proof}
+It suffices for us to show that $\pi_2(\Rbb)(Y(\Rbb))$ is connected, since every fiber of the image is connected and $\pi_2$ is a close map.\\\\
+If $Q_1$ is positive definite, then $\pi_2(\Rbb)(Y(\Rbb)) = \Pbb^2_{[u:v:w]}(\Rbb)$ is connected.\\\\
+If $Q_1$ is negative definite, then $\pi_2(\Rbb)(Y(\Rbb)) = \{p \in \Pbb^2_{[u:v:w]}(\Rbb)\ | \Delta(p) \leq 0\}$, which is connected since $\Delta(\Rbb)$ is one oval, so both $\Delta(\Rbb)$ and its complement is connected.\\\\
+If $Q_1$ is indefinite, assume for the sake of contradiction that $Y(\Rbb)$ is disconnected, since $(Q_1 \geq 0)$ and $(\Delta(p) \leq 0)$ are both connected, it has to be the case that $\pi_2(Y(\Rbb))$ has 2 connected components being $(Q_1 \geq 0)$ and $(\Delta(p) \leq 0)$.\\\\
+Now consider the set $(Q_3 \geq 0)$. If $Q_3$ is negative-definite or positive definite, then we are done by just substituting $Q_1$ with $Q_3$ and $Q_3$ with $Q_1$ using Lemma 0.1. Now if $Q_3$ is indefinite, then $(Q_3 \geq 0)$ is a connected non-empty set.\\\\
+Let $S_1 = (Q_1 \geq 0)$ and $S_2 = (\Delta(p) \leq 0)$, we note that for all $p \in \Pbb^2(\Rbb) \setminus (S_1 \cup S_2)$, $\Delta(p) > 0$ and $Q_1(p) \leq 0$. So in particular $Q_1(p)Q_3(p) = \Delta(p) + Q_2(p)^2 > 0$ implies that $Q_3(p) < 0$.\\\\
+Now for points in $S_1$ and $S_2$, we note that $Q_3$ cannot have both $p \in S_1$ and $q \in S_2$ such that $Q_3(p) \geq 0$ and $Q_3(q) \geq 0$, because this would imply that $(Q_3 \geq 0)$ has two connected components. Thus, $(Q_3 \geq 0)$ can only be contained in one of $S_1$ and $S_2$.\\\\
+If $(Q_3 \geq 0)$ is contained in $S_2$, then we can again make the substitution of $Q_1$ with $Q_3$ and $Q_3$ and $Q_1$ using Lemma 0.1.\\\\
+If $(Q_3 \geq 0)$ is contained in $S_1$, we note that for all point $p$ in $(Q_1 > 0)$, $Q_1(p) > 0$ and $\Delta(p) = Q_1(p)Q_3(p) - Q_2^2(p) > 0$, so $Q_1(p)Q_3(p) > Q_2^2(p) \geq 0$ implies that $Q_3(p) > 0$. Therefore, we know that for all $p \in (Q_1 > 0)$, $Q_3(p) > 0$, and for all $p \in (Q_1 < 0)$, $Q_3(p) < 0$.\\\\
+But since $Q_3$ is smooth, there has to be some point $q \in (Q_1 = 0)$ such that $Q_3(q) = 0$, but this means that at that point. $Q_1(q) = Q_3(q) = 0$, so $\Delta(q) = 0 - Q_2(q)^2 \leq 0$, so $q \in (Q_1 \geq 0) \cap (\Delta \leq 0)$, which is a contradiction.\\\\
+Thus, we conclude that $Y(\Rbb)$ is connected.
+\end{proof}
+
+\end{document}

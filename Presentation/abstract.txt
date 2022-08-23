@@ -1,0 +1,21 @@
+Title: Conic Bundles and Quartic Plane Curves over the Reals
+
+Abstract:
+
+A conic bundle is a morphism between smooth varieties $\pi: X \to S$ such that every fiber is a conic and the generic fiber is a smooth conic. In this presentation, 
+we are concerned with the case when $S = \mathbb{P}_{[u:v:w]}^2$ and $X$ is defined by equation of the form $z^2 = Q_1(u, v, w)t_0^2 + 2Q_2(u, v, w)t_0 t_1 + Q_3(u, v, w)t_1^2$.
+This conic bundle has a discriminant curve $\Delta = (Q_1Q_3 - Q_2^2 = 0) \subset \mathbb{P}_{[u:v:w]}^2$ that is a real smooth quartic plane curve. 
+This talk will introduce the preliminaries necessary to understand these notions and present some results connecting the topological type of the discriminant curve with
+desired properties of the conic bundle.
+
+
+A conic is a curve defined by a degree 2 polynomial. In this talk, we consider bundles of conics over RP^2 whose general member is smooth and such that the locus in RP^2 of singular members is a degree 4 curve. 
+This talk will introduce these objects and present some results exploring the relationship between the topology of this degree 4 curve and the total space of the conic bundle.
+
+
+Conic Bundles over the Real Projective Plane
+
+A conic is a curve defined by a homogenous polynomial of 2. In this talk, we consider bundles of conics over the real project plane whose
+general member is smooth and such that the locus of singular members is a degree 4 curve. It turns out that every real smooth quartic can
+be classified into 1 of 6 topological types. This talk will introduce these objects and present some results exploring the relationship between
+the topology of this degree 4 curve and the total space of the conic bundle.

@@ -1,0 +1,68 @@
+Q1 := -18/13*x^2 - 16/3*x*y - 9/7*y^2 - 24/7*x*z + 8/11*y*z - 13/5*z^2;
+Q2 := -7/22*x^2 - 16/17*x*y - 3/7*y^2 + 15/17*x*z + 2/17*y*z + 3/11*z^2;
+Q3 := -10*x^2 + 19*x*y + 18/19*y^2 + 22/17*x*z + 4*y*z + 18/11*z^2;
+Delta: -86483/6292*x^4 - 192730/7293*x^3*y + 1499659391/16489473*x^2*y^2 + 9783/323*x*y^3 + 1305/931*y^4
+- 562503/17017*x^3*z + 72137314/867867*x^2*y*z + 14522636/1268421*x*y^2*z + 108264/24871*y^3*z - 59482238/3182179*x^2*z^2
++ 7854711/111265*x*y*z^2 + 3040062/2114035*y^2*z^2 + 61892/6545*x*z^3 + 95384/10285*y*z^3 + 2619/605*z^4
+
+Evaluated at: ( -1.96263892508779204286620545529 , 1)
+0 4
+Evaluated at: ( -1.17007514367246612197916347461 , 1)
+1 3
+Evaluated at: ( -0.0348119119990562550126907185059 , 1)
+2 2
+Evaluated at: ( 1.00549721133809945488786840513 , 1)
+1 3
+Evaluated at: ( 1.89577775660245233005060773962 , 1)
+0 4
+Evaluated at: ( 3.35124667601016266509298750796 , 1)
+1 3
+
+I thought this is one oval but it's 2 nested ovals
+
+
+Q1 := -17/19*x^2 + 18/7*x*y + 3*y^2 + 34/3*x*z - 28/19*y*z - 7/13*z^2;
+Q2 := -8/17*x^2 + 15/34*y^2 + 5/19*x*z + 12/11*y*z - z^2;
+Q3 := -7/5*x^2 + 4/7*x*y - 6*y^2 - 10*x*z + 16/3*y*z - 19/5*z^2;
+
+Evaluated at: ( -1.28693962073503465426730543346 , 1)
+1 3
+Evaluated at: ( -0.908734678528986875513287626239 , 1)
+0 4
+Evaluated at: ( -0.105456422568001358120632430411 , 1)
+1 3
+Evaluated at: ( 0.763292813794962543282236874664 , 1)
+0 4
+Evaluated at: ( 1.33392716924033032839762480502 , 1)
+1 3
+Evaluated at: ( 2.71010342864824565628042059814 , 1)
+2 2
+
+Mathematica code showed it has no real solutions:
+
+I thought this is empty ...
+
+
+
+
+
+
+
+Top Type not a invariant of determinant:
+
+Do you know if the topological type of Delta(R) is invariant under
+det(t_0^2 M_1 + 2 t_0 t_1 M_2 + t_1^2 M_3)
+(or maybe up to the determinant times 1 or -1).
+Writing some SAGE/Magma code, when t_0^2 M_1 + 2 t_0 t_1 M_2 + t_1^2 M_3 is a diagonal matrix at least, permuting the diagonal did not change the topological type of the correspondnet quartic.
+
+f1 := -(t+1)*(t+2);
+f2 := -(t-3)*(t-4);
+f3 := -(t^2+1);
+
+and
+
+f1 := -(t+1)*(t-3);
+f2 := -(t+2)*(t-4);
+f3 := -(t^2+1);
+
+has different top type

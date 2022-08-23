@@ -1,0 +1,49 @@
+Example 4.3(1):
+Q1 = -5*x^2 + 10*x*y + 5*y^2 + 10*x*z + 8*y*z;
+Q2 = x^2 - 10*x*y - 2*y^2 + 10*y*z + 4*z^2;
+Q3 = 2*x^2 - 4*x*y - 4*y^2 - 8*x*z + 8*y*z + 2*z^2;
+
+z=1;
+p1 = RegionPlot[-11*x^4 + 60*x^3*y - 106*x^2*y^2 - 100*x*y^3 - 24*y^4 + 60*x^3*z - 164*x^2*y*z + 168*x*y^2*z + 48*y^3*z - 98*x^2*z^2 + 116*x*y*z^2 - 10*y^2*z^2 + 20*x*z^3 - 64*y*z^3 - 16*z^4 <= 0, {x, -1, 5}, {y, -10,2}, PlotStyle ->{ Blue, Opacity[0.3]}, BoundaryStyle -> Directive[Blue, Thick], PlotPoints -> 40]
+p2 = RegionPlot[-5*x^2 + 10*x*y + 5*y^2 + 10*x*z + 8*y*z >= 0, {x, -1, 5}, {y, -10, 2}, PlotStyle ->{ Red, Opacity[0.3]}, BoundaryStyle -> Directive[Red, Thick]]
+Show[p1, p2, PlotRange->All,PlotLabel -> Style["Example 4.3(1)", FontSize -> 18], Axes -> True , AxesLabel -> {u, v}]
+
+Example 4.4(1):
+Q1 = -4*x^2 - 2*x*y - 2*y^2 - 10*x*z + 4*y*z - 4*z^2;
+Q2 = x^2 - 4*x*y - 3*y^2 - 6*x*z + 2*y*z + 2*z^2;
+Q3 = -x^2 - 6*x*y + 8*x*z - 6*y*z - 3*z^2;
+
+z=1;
+p1 = RegionPlot[3*x^4 + 34*x^3*y + 4*x^2*y^2 - 12*x*y^3 - 9*y^4 - 10*x^3*z + 12*x^2*y*z - 48*x*y^2*z + 24*y^3*z - 104*x^2*z^2 + 162*x*y*z^2 - 10*y^2*z^2 + 22*x*z^3 + 4*y*z^3 + 8*z^4 <= 0, {x, -5, 5}, {y, -5,5}, PlotStyle ->{ Blue, Opacity[0.3]}, BoundaryStyle -> Directive[Blue, Thick], PlotPoints -> 40]
+p2 = RegionPlot[-4*x^2 - 2*x*y - 2*y^2 - 10*x*z + 4*y*z - 4*z^2 >= 0, {x, -5, 5}, {y, -5, 5}, PlotStyle ->{ Red, Opacity[0.3]}, BoundaryStyle -> Directive[Red, Thick]]
+Show[p1, p2, PlotRange->All,PlotLabel -> Style["Example 4.4(1)", FontSize -> 18], Axes -> True , AxesLabel -> {u, v}]
+
+Example 4.6(1)
+
+Q1 = x^2 + 10*y^2 - 8*z^2;
+Q2 = 10*x^2 - 4*z^2;
+Q3 = -2*x^2 - 5*y^2 + 3*z^2;
+-102*x^4 - 25*x^2*y^2 - 50*y^4 + 99*x^2*z^2 + 70*y^2*z^2 - 40*z^4
+
+z=1;
+p1 = RegionPlot[-102*x^4 - 25*x^2*y^2 - 50*y^4 + 99*x^2*z^2 + 70*y^2*z^2 - 40*z^4 <= 0, {x, -3, 3}, {y, -2, 2}, PlotStyle ->{ Blue, Opacity[0.3]}, BoundaryStyle -> Directive[Blue, Thick], PlotPoints -> 40]
+p2 = RegionPlot[x^2 + 10*y^2 - 8*z^2 >= 0, {x, -3, 3}, {y, -2, 2}, PlotStyle ->{ Red, Opacity[0.3]}, BoundaryStyle -> Directive[Red, Thick]]
+Show[p1, p2, PlotRange->All,PlotLabel -> Style["Example 4.6(1)", FontSize -> 18], Axes -> True , AxesLabel -> {u, v}]
+
+
+Example 4.6(3)
+Q1 = -2*x^2 - 2*y^2 + z^2;
+Q2 = 4*x^2 - 9*y^2 - y*z + 2*z^2;
+Q3 = -3*x^2 + 9*y^2 + 8*y*z + 4*z^2;
+
+z=1;
+p1 = RegionPlot[-10*x^4 + 60*x^2*y^2 - 99*y^4 - 8*x^2*y*z - 34*y^3*z - 27*x^2*z^2 + 36*y^2*z^2 + 12*y*z^3 <= 0, {x, -10, 10}, {y, -6,1}, PlotStyle ->{ Blue, Opacity[0.3]}, BoundaryStyle -> Directive[Blue, Thick], PlotPoints -> 40]
+p2 = RegionPlot[-2*x^2 - 2*y^2 + z^2 >= 0, {x, -10, 10}, {y, -6, 1}, PlotStyle ->{ Red, Opacity[0.3]}, BoundaryStyle -> Directive[Red, Thick]]
+Show[p1, p2, PlotRange->All,PlotLabel -> Style["Example 4.6(3)", FontSize -> 18], Axes -> True , AxesLabel -> {u, v}]
+
+Mathematica:
+
+z=1;
+p1 = RegionPlot[-102*x^4 - 25*x^2*y^2 - 50*y^4 + 99*x^2*z^2 + 70*y^2*z^2 - 40*z^4 <= 0, {x, -3, 3}, {y, -2, 2}, PlotStyle ->{ Blue, Opacity[0.3]}, BoundaryStyle -> Directive[Blue, Thick], PlotPoints -> 40]
+p2 = RegionPlot[x^2 + 10*y^2 - 8*z^2 >= 0, {x, -3, 3}, {y, -2, 2}, PlotStyle ->{ Red, Opacity[0.3]}, BoundaryStyle -> Directive[Red, Thick]]
+Show[p1, p2, PlotRange->All,PlotLabel -> Style["Example 4.6(1)", FontSize -> 18], Axes -> True , AxesLabel -> {u, v}]

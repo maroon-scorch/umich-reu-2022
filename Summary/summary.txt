@@ -1,0 +1,103 @@
+# Summary
+
+## Week 1
+
+On Monday, I met Professor Ji in person for the first time. I also realized that Atiyah-MacDonald did not prepare me for the Algebraic Geometry part of this REU. The motivation part made sense, and besides some magical jumps that I decided to black-box for now, I think the rest is fine? I do know that I need to study more Algebraic Geometry.
+
+On Tuesday, I adapated PSV's code for our interest here. Specifically, I randomly generated degree 2 homogenous poltnomials Q1, Q2, Q3 and used that to check the topological type of the resulting discriminant curve Delta(R) in SAGE, and I found that our conic bundle can produce all 6 topological types of a real quartic.
+
+It'd be great to generate more examples for these cases, so on Tuesday and Wednesday, I automated the code I had so that it could perform as many searches as the user wants. Moreover, the outputs of the raw run is also produced in a text file, and the more important data is produced in a CSV file. I also hoped that the csv file could help import the results programmatically to another environment such as MAGMA, more on this later.
+
+On Thursday, I met up with Professor Ji and discussed about the research questions. 
+
+I also attended the first REU Seminar at UMich in the afternoon. The first talk used Manifolds to model Non-holonomic Systems. I understood the Manifold part, and I think I probably could have followed the Non-holonomic System part better if I had sat down and looked at it carefully for a few hours. I think the talk was pretty interesting. The second talk used Differential Equations to model Cancer Cell Data. 
+
+I originally thought that I was not going to understand a single thing, but I actually did understand some things. Therefore, I was pleasantly surprised.
+
+One of the REU students also told me later that day, that, apparently, the completion of the Borel sigma algebra with respect to Lebesgue measure is the sigma-algebra for Lebesgue measurable sets.
+
+When I got back, I started working on the surjectivity question for the remainder of the day.
+
+On Friday, I first proved that when Q1 or Q3 is negative-definite, \pi_1(R) can never be surjective. I originally had hoped that I could use the fact that Q1 or Q3 is negative-definite to force DeltaTilde(R) to be empty. However, I later found another approach where I forced the first entry of the associated matrix to always be positive, thus causing \pi_1(R) to be surjective, and then I choose the rest of my coefficients carefully so that Delta(R) is empty, which implies that DeltaTilde(R) is empty.
+
+This worked out, and on Friday night I solved the surjectivity question. That yes there does exist some scenario where DeltaTilde(R) is empty and \pi_1(R) is surjective.
+
+On Saturday, I studied Algebraic Geometry for the entire day. Or at least I tried to, but there were a few interruptions.
+
+On Sunday, I found cases examples of all 6 topological types where $Y_{[t_0 : t_1]}$ is indefinite for all [t_0 : t_1]. I also did some math involving the connected components, and I wrote some code in Magma that would be able to tell me the numerical signature of each interval down in P^1. The problem is is that I don't know how I would integrate something from Magma into something in Sage.
+
+## Week 2
+
+For the first part of the week, I mainly worked on figuring out connected components of \pi_1(Y(R)). To do this, I migrated the magma code for numerical signature to SAGE and changes the generating algorithm to produce Quartic Forms whose correspondent matrix M_1 t_0^2 + 2 M_2 t_0 t_1 + M_3 t_1^2 has a determinant with a chosen number of real roots in P^1(R). After using this to search around, I eventually concluded that the only topological types that ever showed up were two nested ovals, two non-nested ovals for when \pi_1(Y(R)) is 2 connected components, and three ovals for whem \pi_1(Y(R)) is 3 connected components. Professor Ji wrote a proof up on when Delta(R) is empty implies that \pi_1(R) is necessarily surjective, so this problem is about 4/6th the way through.
+
+The second part of the week, I found an example when \pi_1(R) is surjective but \pi_2(R) is not surjective and when \pi_2(R) is surjective but \pi_1(R) isn't. When \pi_1(R) is not surjective but \pi_1(R)(Y(R)) is connected, I found a few examples of this for topological types empty, 1 oval, 2 non-nested ovals, and 2 nested ovals. No examples for 3 ovals and 4 ovals showed up. Our current guess is that having 4 ovals implies that \pi_1(R) is surjective.
+
+For Delta(R) is one oval implies Y(R) is connected, when Q_1 is positive definite, then Y(R) is connected (this is true for any topological types). The case for when Q_1 is indefinite or negative-definite is more blurry, and I probably need to understand when exactly is Delta(R) just one oval for this to happen.
+
+## Week 3
+
+For this week, I came up with a topological argument to prove why when Delta(R) being one oval implies that Y(R) is connected. The original version of this proof involved assuming that Y(R) is disconnected and finding the locus at where Q3 can be positive, negative, and zero. However, thanks to some further insight, I noted that (Q1 = 0) is contained in (Delta \leq 0). This new insight made the proof of this same question a lot easier. In addition, I noted that the map given by the conic bundle perserve number of connected components, and I used this fact and my new insight to prove that when Delta(R) is 4 ovals, then Y(R) is connected. I also used similar arguments to show that when \pi_1(Y(R)) has 2 connected components, then Delta(R) has to be 2 ovals, and when pi_1(Y(R)) has 3 connected components, then Delta(R) has to be 3 ovals. I wrote up all of them, and the proofs are yet to be verified.
+
+In addition, assuming that the propositions above hold, then pi_1(Y(R)) can only be disconnected whenever it is 2 non-nested ovals, 2 nested ovals, or 3 ovals. Using this, I found examples for all 3 topological types where pi_1(Y(R)) is disconnected and there exist Gal(C/R)-invariant set of 4 points in DeltaTilde(C) satisfying the constraint asked in the question page. For 2 nested ovals, I found an example where some fiber of pi_1(Y(R)) gave the numerical signature (2, 2). For 3 ovals, it is clearly impossible to find a fiber with numerical signature (2, 2). However, I have yet to find an example where Delta(R) is two non-nested ovals and some fiber has numerical signature (2, 2).
+
+It seems somewhat likely that disconnected and having a fiber of (2, 2) implies that Delta(R) is two nested ovals.
+
+Finally, I also found examples where \pi_1(R) is surjective and DeltaTilde only partially covers Delta(R) for all topological types that are disconnected.
+
+## Week 4
+
+This week I prepared for the REU Seminar where I presented conic bundles over the real projective plane on Thursday. I made the slides
+and prepared for them.
+
+Research wise, I also looked into more examples of two non-nested ovals and their numerical signature. I have yet to find an example where it has a fiber of (2, 2). I also
+found a proof that Delta(R) being non-empty and \pi_1(R) being surjective implies that DeltaTilde(R) is non-empty that hinges on a lemma. The lemma has not been proven yet
+but it's likely that \pi_2(R) being surjective implies that \pi_1(R) has some fiber of signature (3, 1).
+
+I also started writing a draft of a paper with Professor Ji this week where we are compiling together the results made in the first few weeks. I also found some nicer (meaning they don't have very complicated coefficients) examples of disconnected examples and connected examples that will be shown in the tex document.
+
+## Week 5
+
+This week I focused mainly on writing the writeup with Dr Ji. I found examples where DeltaTilde(R) covers Delta(R) for every non-empty topological type, and I found examples for all possible covering DeltaTilde(R) can have on Delta(R). We also found out that the statement "\pi_1(R) surjective and Delta(R) is non-empty implies DeltaTilde(R) is non-empty" has counter-examples for every non-empty topological type of Delta(R).
+
+I also wrote code that constructively found examples of Q-rational conic bundles for each non-empty topological type of Delta(R) and for each type of covering from DeltaTilde(R) to Delta(R). Not all Q-rational examples have rational points when you replace Q1, Q3 with -Q1, -Q3 respectively. However, I also found a method to construct examples where you have rational points both with Q1, Q3 and with -Q1, -Q3. Using the setup of how I found these Q-rational examples, I also used these to find the Gal(C/R)-invariant examples for all disconnected topological types after I realized that some of the original examples I'd included in the writeup were errorneous as the 4 points I found weren't actually distinct.
+
+Finally, I also wrote code that takes in a quartic and checks the intersection of the quartic and its real bitangents, then calculated the rank of the matrix formed by the DeltaTilde 4 point over the intersection.
+
+## Week 6
+
+At the start of the week, I realized that there were some significant oversight in the code I had written. Specifically, all real bitangents were actually found, but my code had flagged real bitangents that intersected Delta at non-real complex points as errorneous examples. Fixing this and streamlining the code, now the Sage code can take in any Q1, Q2, Q3 and calculate the rank of the 5 x 4 matrix formed at the real bitangents. This is a really effective example to find cases where the IJT obstruction disappears. I also wrote a similar setup code that looks at the intersection of Delta and a list of lines (possibly randomly generated) to determine the rank of the 5x4 matrix formed there. This also gave a really effective way to find examples rather than just generating Q1, Q2, Q3's and checking if they have a desired solution at v = 1, w = 0, which was previously the main method of searches.
+
+Using these new insights in finding examples where the IJT obstruction disappears, I found irrational examples where the IJT obstruction vanishes with far simpler coefficients than we had previously, which was really encouraging from a presentation standpoint.
+
+We also expanded on a new section that studies family of conic bundles by varying one of its coefficients, say s, around. I found an example where for some value of s, Y(R) is disconnected, while for some other values of s, Delta(R) is 4 ovals. While previous iteration of this section contained some really long polynomials for the discriminant and resultants that we need to calculate, I wrote a script in Macaulay2 that streamlined this process so that the user only has to input the Conic Bundle family to get all the roots where Delta_s is not smooth.
+
+I also replaced a few previous examples in the rational examples with ones that have simpler coefficients and clearer presentations.
+
+## Week 7
+
+This week, I rewrote the examples in Section 4 of the paper on the proof of how many ovals does the map DeltaTilde(R) to Delta(R) cover. In particular, I replaced the original proofs with proofs using the box method instead. I also replaced a couple examples with ones that had nicer coefficients, which made the proofs for them a lot simpler.
+
+I also double checked over the examples given in Section 3, 4, and 5. During this I discovered a really subtle error involved with the point on DeltaTilde. For a given point [u: v: w: r : s] on DeltaTilde, there were some examples where I gave points that only satisfied the constraints that r^2 = Q1(u, v, w) and s^2 = Q3(u, v, w). However, I forgot to account for the constraint of rs = Q2(u, v, w). Fortunately, I quickly resolved this error afterwards.
+
+However, during this process, I discovered that the example we had with irrational two nested ovals that Ptilde_1(R) most likely don't have any points. This is because after correcting the sign errors, none of the matrices had full rank with any kind of valid lines that we tested on. I originally thought this would be a quick fix to resolve it with another example. However, after failing on many examples, it might be possible that two nested ovals that are irrational implies that Ptilde_1(R) is empty, hence the IJT obstructions would always occur.
+
+I also cleaned up the relevant Sage and Macaulay2 code needed for this paper and put them onto a Git repository. In addition, I also wrote Mathematica code and produced graphs for a few key examples in Section 4. 
+
+Other than that, I also studied some more algebraic geometry this week based on Karen Smith and Introduction to Algebraic Varieties.
+
+## Week 8
+
+This week, I focused on making final edits on changes in the paper. In addition, I also found verified more examples of disconnected two nested ovals where the IJT obstruction doesn't vanish and compiled them into a list. It turns out that, as proven by Dr Ji, that if Y(R) is disconnected and Delta(R) is two ovals, then Ptilde^1(R) necessarily has to be empty, as the existence of a member in it would imply that Y(R) is R-rational, hence a contradiction.
+
+During this process, I also figured out a proof such that:
+- If Y(R) has two connected components and its hyperellipitic Gamma has 6 real Weierstrass points, then Delta(R) has to be two nested ovals.
+
+It's still unknown if in the case that Gamma has 4 real Weierstrass points if Delta(R) is definitely two non-nested ovals (albeit, empirical evidence does suggest this)
+
+We finalized the writeup for the UMich REU Program and submitted it on Thursday Night.
+
+I also found some miscellaneous examples where Delta(R) is two non-nested ovals,  (Q1Q3-Q2^2≤0) is the outside of the ovals, but \pi_1 is not surjective on real points. 
+
+I also prepared the slides for the YMC talk where I elaborated a lot more on what's given in the REU presentation.
+
+I had a lot of fun at this REU, and we will now be revising the paper to introduce more content post REU!

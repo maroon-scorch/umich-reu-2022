@@ -1,0 +1,137 @@
+--------------------------------------------------------------------------------
+Section 1 - One Oval:
+
+Example 1.0:
+    Q1 = -(3*x^2 + 10*x*y - 3*y^2 + 8*x*z - 8*y*z + z^2);
+    Q2 = x^2 - 2*x*y - 3*y^2 + 2*y*z + 3*z^2;
+    Q3 = -(2*x^2 - 6*x*y - y^2 + 6*x*z + 6*y*z + 3*z^2);
+
+    No Rational Point
+
+    Image of DeltaTilde(R) is empty
+
+Example 1.1:
+    Q1 = 12*x^2 + 96*x*y + 36*y^2 + 108*x*z + 120*y*z + 48*z^2
+    Q2 = 36*x^2 + 180*x*y + 36*y^2 + 144*x*z + 36*y*z + 12*z^2
+    Q3 = 90*x^2 + 96*x*y + 36*y^2 + 72*x*z + 24*y*z + 36*z^2
+
+    Rational Point at [0 : 1 : 0 : 6 : 6]
+
+    Image of DeltaTilde(R) is One Oval
+
+--------------------------------------------------------------------------------
+Section 2 - Two Non-nested Ovals:
+
+Example 2.0:
+
+    No Rational Point
+    
+    Image of DeltaTilde(R) is empty
+
+Example 2.1:
+    Q1 = 2*x^2 - 9*y^2 + 13*z^2
+    Q2 = x^2 - 6*y^2 - 10*z^2
+    Q3 = x^2 - 8*y^2 + 6*z^2
+
+    Rational Point: [3, 1, 0, 3, 1]
+
+    Image of DeltaTilde(R) is One Oval
+
+Example 2.2:
+    Q1 = 54*x^2 + 24*x*y + 36*y^2 - 1800*x*z + 36*y*z + 432*z^2
+    Q2 = 18*x^2 + 24*x*y + 36*y^2 - 1440*x*z + 540*y*z - 468*z^2
+    Q3 = 48*x^2 + 180*x*y + 36*y^2 + 1404*x*z + 1080*y*z - 144*z^2
+
+    Rational Point: [0, 1, 0, 6, 6]
+
+    Image of DeltaTilde(R) is Two ovals
+
+--------------------------------------------------------------------------------
+Section 3 - Two Non-nested Ovals: 
+
+Example 3.1:
+    Q1 = 2*x^2 - 9*y^2 + 13*z^2;
+    Q2 = x^2 - 6*y^2 - 3*z^2;
+    Q3 = x^2 - 8*y^2 + 6*z^2;
+
+    Rational Point: [3, 1, 0, 3, 1]
+
+    Image of DeltaTilde(R) is One Oval
+
+Example 3.2:
+    Q1 = 54*x^2 + 24*x*y + 36*y^2 - 972*x*z - 540*y*z + 900*z^2;
+    Q2 = 18*x^2 + 24*x*y + 36*y^2 - 612*x*z - 432*y*z + 540*z^2;
+    Q3 = 48*x^2 + 180*x*y + 36*y^2 + 1512*x*z + 612*y*z - 684*z^2;
+
+    Rational Point: [0, 1, 0, 6, 6]
+
+    Image of DeltaTilde(R) is Two ovals
+
+--------------------------------------------------------------------------------
+Section 4 - Three Ovals
+
+Example 4.1:
+    Q1 = 2*x^2 - 9*y^2 + x*z - 82*z^2;
+    Q2 = x^2 - 6*y^2 + 74*y*z - 49*z^2;
+    Q3 = x^2 - 8*y^2 + 37*x*z + 79*z^2;
+
+    Rational Point: [3, 1, 0, 3, 1]
+
+    Image of DeltaTilde(R) is One Oval
+
+Example 4.2:
+    Q1 = -1*(2*x^2 - 9*y^2 + x*z - 82*z^2);
+    Q2 = x^2 - 6*y^2 + 74*y*z - 49*z^2;
+    Q3 = -1*(x^2 - 8*y^2 + 37*x*z + 79*z^2);
+
+    Rational Point: [2, 1, 0, 1, 2]
+
+    Image of DeltaTilde(R) is Two ovals
+
+Example 4.3:
+    Q1 = -2*x^2 - 6*x*y + y^2 - 4*x*z + 39*y*z + 44*z^2;
+    Q2 = x^2 - 28*x*y + y^2 + 29*x*z - 25*y*z + 20*z^2;
+    Q3 = 10*x^2 + 16*x*y + y^2 - 38*x*z - 10*y*z + 2*z^2;
+
+    Rational Point: [0, 1, 0, 1, 1]
+
+    Image of DeltaTilde(R) is Three ovals
+    
+--------------------------------------------------------------------------------
+Section 5 - Four Ovals
+
+Example 5.1
+    Q1 := -x^2 + 6*x*y - 4*y^2 + 21*x*z - 28*y*z - 49*z^2;
+    Q2 := 4*x^2 - 14*x*y + 6*y^2 + 21*x*z + 38*y*z + 38*z^2;
+    Q3 := 4*x^2 + x*y - 9*y^2 + 19*x*z - 6*y*z + 20*z^2;
+
+    Rational Point: [2 : 1 : 0 : -2: 3]
+
+    Image of DeltaTilde(R) is One ovals
+
+Example 5.2
+    Q1 := -1*(-x^2 + 6*x*y - 4*y^2 + 21*x*z - 28*y*z - 49*z^2);
+    Q2 := 4*x^2 - 14*x*y + 6*y^2 + 21*x*z + 38*y*z + 38*z^2;
+    Q3 := -1*(4*x^2 + x*y - 9*y^2 + 19*x*z - 6*y*z + 20*z^2);
+
+    Rational Point: [0 : 1 : 0 : 2: 3]
+
+    Image of DeltaTilde(R) is Three ovals
+
+Example 5.3
+    Q1 := 12*x^2 + 96*x*y + 36*y^2 + 5*x*z - 2*y*z;
+    Q2 := 36*x^2 + 180*x*y + 36*y^2 - 2*x*z - 5*y*z + 4*z^2;
+    Q3 := 90*x^2 + 96*x*y + 36*y^2 - 4*x*z + 5*y*z - 3*z^2;
+    
+    Rational Point: [0, 1, 0, 6, 6]
+
+    Image of DeltaTilde(R) is Two ovals
+
+Example 5.4
+    Q1 := -2*x^2 - 6*x*y + y^2 + 43*x*z - 34*y*z + 6*z^2;
+    Q2 := x^2 - 28*x*y + y^2 - 41*x*z + 21*y*z + 44*z^2;
+    Q3 := 10*x^2 + 16*x*y + y^2 - 47*x*z + 44*y*z - 12*z^2;
+
+    Rational Point: [0 : 1 : 0 : 1 : 1]
+
+    Image of DeltaTilde(R) is Four ovals

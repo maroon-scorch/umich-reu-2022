@@ -1,0 +1,24 @@
+AA<x, y, z, t> := PolynomialRing(Rationals(), 4);
+
+f1 := -t*(t+2);
+f2 := -(t-1)*(t-4);
+f3 := -t^2-1;
+
+X := Matrix(AA, 3, 3, [f1,0,0, 0,f2,0, 0,0,f3]);
+M1 := Matrix(AA, 3, 3, [Coefficient(f1, t, 2),0,0, 0,Coefficient(f2, t, 2),0, 0,0,Coefficient(f3, t, 2)]);
+M2 := 1/2*Matrix(AA, 3, 3, [Coefficient(f1, t, 1),0,0, 0,Coefficient(f2, t, 1),0, 0,0,Coefficient(f3, t, 1)]);
+M3 := Matrix(AA, 3, 3, [Coefficient(f1, t, 0),0,0, 0,Coefficient(f2, t, 0),0, 0,0,Coefficient(f3, t, 0)]);
+
+print "M1: ", M1;
+print "M2: ", M2;
+print "M3: ", M3;
+
+variables := Matrix(AA, 3, 1, [x, y, z]);
+
+Q1 :=  (Transpose(variables)*M1*variables)[1][1];
+Q2 :=  (Transpose(variables)*M2*variables)[1][1];
+Q3 :=  (Transpose(variables)*M3*variables)[1][1];
+
+print "Q1 := ", Q1;
+print "Q2 := ", Q2;
+print "Q3 := ", Q3;

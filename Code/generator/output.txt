@@ -1,0 +1,612 @@
+Iteration 1:
+Q1: 5/3*x^2 + 10/3*x*y + 5/3*y^2 + 4*x*z + 2*y*z + 5/3*z^2
+Q2: 3/2*x^2 + x*y + 1/2*y^2 + 4*x*z + y*z + 5/2*z^2
+Q3: 5/2*x^2 + 5*x*y + 5/3*y^2 + 10/3*x*z + 4/3*y*z + 2/3*z^2
+Delta: -23/12*x^4 - 41/3*x^3*y - 190/9*x^2*y^2 - 116/9*x*y^3 - 91/36*y^4 - 32/9*x^3*z - 82/3*x^2*y*z - 62/3*x*y^2*z - 41/9*y^3*z + 44/9*x^2*z^2 - 86/9*x*y*z^2 - 55/18*y^2*z^2 + 106/9*x*z^3 + 13/9*y*z^3 + 185/36*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 2:
+Q1: 2/3*x^2 + 2*x*y + 2/3*y^2 + x*z + 8/3*y*z + 5/2*z^2
+Q2: 2/3*x^2 + 5*x*y + 4/3*y^2 + 3*x*z + y*z + 5/3*z^2
+Q3: 4/3*x^2 + 8/3*x*y + 4/3*y^2 + 3*x*z + 5*y*z + 2/3*z^2
+Delta: -4/9*x^4 + 20/9*x^3*y + 59/3*x^2*y^2 + 80/9*x*y^3 + 8/9*y^4 + 2/3*x^3*z + 142/9*x^2*y*z - 22/9*x*y^2*z - 38/9*y^3*z + 40/9*x^2*z^2 + 5/3*x*y*z^2 - 35/3*y^2*z^2 + 11/6*x*z^3 - 197/18*y*z^3 + 10/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 16 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 3 ovals.
+------------------------------------------
+Iteration 3:
+Q1: x^2 + x*y + 5/2*y^2 + 3*x*z + 2*y*z + 2*z^2
+Q2: x^2 + 4/3*x*y + 1/3*y^2 + 2*x*z + 4*y*z + 4/3*z^2
+Q3: 5/2*x^2 + 10/3*x*y + y^2 + 5*x*z + 3*y*z + 1/2*z^2
+Delta: -3/2*x^4 - 19/6*x^3*y - 293/36*x^2*y^2 - 76/9*x*y^3 - 43/18*y^4 - 17/2*x^3*z - 29/3*x^2*y*z - 79/6*x*y^2*z - 41/6*y^3*z - 83/6*x^2*z^2 - 119/18*x*y*z^2 + 275/36*y^2*z^2 - 37/6*x*z^3 + 11/3*y*z^3 + 7/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 4:
+Q1: 5/2*x^2 + 2/3*x*y + 5/3*y^2 + x*z + 8/3*y*z + z^2
+Q2: 5/3*x^2 + 4*x*y + y^2 + 4/3*x*z + 2*y*z + 1/2*z^2
+Q3: 1/3*x^2 + 3*x*y + 5/2*y^2 + 2*x*z + 4/3*y*z + z^2
+Delta: 35/18*x^4 + 101/18*x^3*y + 379/36*x^2*y^2 + 4/3*x*y^3 - 19/6*y^4 - 8/9*x^3*z + 79/9*x^2*y*z + 71/18*x*y^2*z - 44/9*y^3*z - 25/18*x^2*z^2 - x*y*z^2 - 49/18*y^2*z^2 - 5/3*x*z^3 - 2*y*z^3 - 3/4*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 5:
+Q1: 5/3*x^2 + 2*x*y + 2*y^2 + 2*x*z + 3*y*z + 1/3*z^2
+Q2: 3/2*x^2 + 2*x*y + 5/3*y^2 + 2/3*x*z + 3*y*z + 5/2*z^2
+Q3: x^2 + 4*x*y + y^2 + 3*x*z + 4/3*y*z + z^2
+Delta: 7/12*x^4 - 8/3*x^3*y - 8/3*x^2*y^2 - 10/3*x*y^3 + 7/9*y^4 - 5*x^3*z - 68/9*x^2*y*z - 76/9*x*y^2*z + 13/3*y^3*z - 1/18*x^2*z^2 - x*y*z^2 + 11*y^2*z^2 + 1/3*x*z^3 + 104/9*y*z^3 + 71/12*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 6:
+Q1: 3/2*x^2 + 4/3*x*y + 3/2*y^2 + x*z + 2*y*z + 2/3*z^2
+Q2: x^2 + 2*x*y + 5/3*y^2 + 2/3*x*z + 2/3*y*z + 5/2*z^2
+Q3: 5/3*x^2 + 5*x*y + 1/3*y^2 + 2*x*z + 4/3*y*z + 2*z^2
+Delta: -3/2*x^4 - 103/18*x^3*y - 7/3*x^2*y^2 - 23/18*x*y^3 + 41/18*y^4 - 10/3*x^3*z - 9*x^2*y*z - 92/9*x*y^2*z - 4/9*y^3*z - 2/3*x^2*z^2 - 4/9*x*y*z^2 + 26/9*y^2*z^2 - 14/9*y*z^3 + 59/12*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+Singular crashed -- automatically restarting.
+Singular error:
+   ? `int` expected while building `solve(`
+   ? error occurred in or before STDIN line 11: `def sage20302=solve(sage20300,sage20301);`
+------------------------------------------
+Iteration 7:
+Q1: 1/2*x^2 + 8/3*x*y + 1/3*y^2 + 2*x*z + 4/3*y*z + 1/2*z^2
+Q2: x^2 + 2*x*y + 1/3*y^2 + 2/3*x*z + 3*y*z + 2/3*z^2
+Q3: 1/2*x^2 + 2*x*y + 2*y^2 + x*z + 10/3*y*z + z^2
+Delta: 3/4*x^4 + 5/3*x^3*y - 11/6*x^2*y^2 - 14/3*x*y^3 - 5/9*y^4 - 1/6*x^3*z - 1/3*x^2*y*z - 31/9*x*y^2*z - 16/9*y^3*z - 35/36*x^2*z^2 - 5*x*y*z^2 + 11/3*y^2*z^2 - 29/18*x*z^3 + y*z^3 - 1/18*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 8:
+Q1: 1/2*x^2 + 4/3*x*y + 5/3*y^2 + 5*x*z + y*z + 3/2*z^2
+Q2: 5/3*x^2 + 10/3*x*y + 2/3*y^2 + 2/3*x*z + 4/3*y*z + z^2
+Q3: 5/3*x^2 + 5*x*y + 5/2*y^2 + 8/3*x*z + y*z + z^2
+Delta: 35/18*x^4 + 115/18*x^3*y + 95/36*x^2*y^2 - 65/9*x*y^3 - 67/18*y^4 - 67/9*x^3*z - 131/6*x^2*y*z - 27/2*x*y^2*z - 43/18*y^3*z - 113/9*x^2*z^2 - 145/18*x*y*z^2 - 119/36*y^2*z^2 - 23/3*x*z^3 + 1/6*y*z^3 - 1/2*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+15 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 2 nested ovals (a Vinnikov curve).
+------------------------------------------
+Iteration 9:
+Q1: 5/3*x^2 + 2/3*x*y + 5/3*y^2 + 2/3*x*z + 2*y*z + 2*z^2
+Q2: 1/2*x^2 + 2*x*y + 2/3*y^2 + 2*x*z + 2/3*y*z + 2/3*z^2
+Q3: 2*x^2 + 2*x*y + 5/2*y^2 + x*z + 10/3*y*z + 2*z^2
+Delta: -37/12*x^4 - 8/3*x^3*y - 25/6*x^2*y^2 - 7/3*x*y^3 - 67/18*y^4 - x^3*z - 26/9*x^2*y*z - 38/9*x*y^2*z - 29/3*y^3*z - 10/3*x^2*z^2 - 38/9*x*y*z^2 - 41/3*y^2*z^2 - 2/3*x*z^3 - 88/9*y*z^3 - 32/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 10:
+Q1: 1/2*x^2 + 3*x*y + 1/2*y^2 + x*z + 2*y*z + 1/2*z^2
+Q2: 4/3*x^2 + 3*x*y + 3/2*y^2 + 10/3*x*z + 2*y*z + 2/3*z^2
+Q3: x^2 + 4*x*y + 2*y^2 + 4/3*x*z + 4*y*z + 5/3*z^2
+Delta: 23/18*x^4 + 3*x^3*y - 1/2*x^2*y^2 + x*y^3 + 5/4*y^4 + 65/9*x^3*z + 40/3*x^2*y*z - 2/3*x*y^2*z + 92/9*x^2*z^2 + 11/3*x*y*z^2 - 23/6*y^2*z^2 + 19/9*x*z^3 - 8/3*y*z^3 - 7/18*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 16 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 3 ovals.
+------------------------------------------
+Iteration 11:
+Q1: x^2 + x*y + 4/3*y^2 + 2/3*x*z + y*z + 1/3*z^2
+Q2: 3/2*x^2 + x*y + 1/3*y^2 + 2*x*z + 4/3*y*z + 1/3*z^2
+Q3: 4/3*x^2 + 10/3*x*y + 4/3*y^2 + 10/3*x*z + 3*y*z + 2/3*z^2
+Delta: 11/12*x^4 - 5/3*x^3*y - 40/9*x^2*y^2 - 46/9*x*y^3 - 5/3*y^4 + 16/9*x^3*z - 17/9*x^2*y*z - 23/3*x*y^2*z - 40/9*y^3*z + 5/3*x^2*z^2 - 10/9*x*y*z^2 - 7/3*y^2*z^2 - 2/9*x*z^3 - 7/9*y*z^3 - 1/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 12:
+Q1: x^2 + 4/3*x*y + 5/3*y^2 + 10/3*x*z + 10/3*y*z + 5/2*z^2
+Q2: 4/3*x^2 + 4*x*y + y^2 + 4/3*x*z + 3*y*z + 1/3*z^2
+Q3: 5/2*x^2 + 8/3*x*y + 5/3*y^2 + 8/3*x*z + 8/3*y*z + z^2
+Delta: -13/18*x^4 + 14/3*x^3*y + 167/18*x^2*y^2 + 4/3*x*y^3 - 16/9*y^4 - 67/9*x^3*z - 43/9*x^2*y*z + 38/9*x*y^2*z - 4*y^3*z - 485/36*x^2*z^2 - 136/9*x*y*z^2 - 91/18*y^2*z^2 - 82/9*x*z^3 - 8*y*z^3 - 43/18*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+Singular crashed -- automatically restarting.
+Singular error:
+   ? `int` expected while building `solve(`
+   ? error occurred in or before STDIN line 11: `def sage48721=solve(sage48719,sage48720);`
+------------------------------------------
+Iteration 13:
+Q1: x^2 + 2*x*y + 5/2*y^2 + 10/3*x*z + 8/3*y*z + 1/3*z^2
+Q2: 5/2*x^2 + 5*x*y + 2*y^2 + 10/3*x*z + 3*y*z + 2/3*z^2
+Q3: 4/3*x^2 + x*y + 1/3*y^2 + 3*x*z + 8/3*y*z + 3/2*z^2
+Delta: 59/12*x^4 + 64/3*x^3*y + 88/3*x^2*y^2 + 101/6*x*y^3 + 19/6*y^4 + 83/9*x^3*z + 295/9*x^2*y*z + 481/18*x*y^2*z + 40/9*y^3*z + 5/2*x^2*z^2 + 58/9*x*y*z^2 + 25/36*y^2*z^2 - 14/9*x*z^3 - 8/9*y*z^3 - 1/18*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+15 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 2 nested ovals (a Vinnikov curve).
+------------------------------------------
+Iteration 14:
+Q1: 4/3*x^2 + 5*x*y + 3/2*y^2 + 2*x*z + 8/3*y*z + 3/2*z^2
+Q2: 5/3*x^2 + 2/3*x*y + 5/2*y^2 + 2/3*x*z + 2/3*y*z + 5/2*z^2
+Q3: x^2 + 4/3*x*y + 3/2*y^2 + 2*x*z + 3*y*z + z^2
+Delta: 13/9*x^4 - 41/9*x^3*y - 25/18*x^2*y^2 - 37/6*x*y^3 + 4*y^4 - 22/9*x^3*z - 146/9*x^2*y*z - 61/3*x*y^2*z - 31/6*y^3*z + 35/18*x^2*z^2 - 127/9*x*y*z^2 + 43/36*y^2*z^2 - 5/3*x*z^3 - 23/6*y*z^3 + 19/4*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 15:
+Q1: x^2 + 8/3*x*y + 2*y^2 + 8/3*x*z + 4*y*z + 4/3*z^2
+Q2: 1/3*x^2 + x*y + y^2 + 2*x*z + 2*y*z + 2*z^2
+Q3: 4/3*x^2 + 3*x*y + 5/2*y^2 + 4*x*z + 8/3*y*z + 2/3*z^2
+Delta: -11/9*x^4 - 53/9*x^3*y - 23/2*x^2*y^2 - 32/3*x*y^3 - 4*y^4 - 56/9*x^3*z - 64/3*x^2*y*z - 232/9*x*y^2*z - 34/3*y^3*z - 70/9*x^2*z^2 - 152/9*x*y*z^2 - 22/3*y^2*z^2 + 8/9*x*z^3 + 16/9*y*z^3 + 28/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+15 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 2 nested ovals (a Vinnikov curve).
+------------------------------------------
+Iteration 16:
+Q1: x^2 + 3*x*y + 2/3*y^2 + x*z + 10/3*y*z + 4/3*z^2
+Q2: 5/2*x^2 + 5*x*y + 2/3*y^2 + 4/3*x*z + 2*y*z + 5/3*z^2
+Q3: 5/2*x^2 + 2*x*y + 2/3*y^2 + 2*x*z + 2/3*y*z + z^2
+Delta: 15/4*x^4 + 31/2*x^3*y + 20*x^2*y^2 + 10/3*x*y^3 + 13/6*x^3*z + 19/3*x^2*y*z + 100/9*x*y^2*z + 34/9*x^2*z^2 + 9*x*y*z^2 + 22/9*y^2*z^2 + 7/9*x*z^3 + 22/9*y*z^3 + 13/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+Singular crashed -- automatically restarting.
+Singular error:
+   ? `int` expected while building `solve(`
+   ? error occurred in or before STDIN line 11: `def sage75754=solve(sage75752,sage75753);`
+------------------------------------------
+Iteration 17:
+Q1: 2*x^2 + 10/3*x*y + y^2 + x*z + 2*y*z + 2/3*z^2
+Q2: 1/2*x^2 + x*y + 4/3*y^2 + 2/3*x*z + 2*y*z + 2/3*z^2
+Q3: x^2 + 4*x*y + y^2 + 5*x*z + 2*y*z + z^2
+Delta: -7/4*x^4 - 31/3*x^3*y - 14*x^2*y^2 - 14/3*x*y^3 + 7/9*y^4 - 31/3*x^3*z - 70/3*x^2*y*z - 134/9*x*y^2*z + 4/3*y^3*z - 59/9*x^2*z^2 - 14*x*y*z^2 + 1/9*y^2*z^2 - 31/9*x*z^3 - 2/3*y*z^3 - 2/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 16 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 3 ovals.
+------------------------------------------
+Iteration 18:
+Q1: 2*x^2 + 2/3*x*y + 1/3*y^2 + 4/3*x*z + y*z + 4/3*z^2
+Q2: 1/3*x^2 + 5*x*y + 5/2*y^2 + x*z + 4*y*z + 1/2*z^2
+Q3: 1/3*x^2 + 2*x*y + 5/2*y^2 + 8/3*x*z + 4/3*y*z + z^2
+Delta: -5/9*x^4 - 8/9*x^3*y + 182/9*x^2*y^2 + 68/3*x*y^3 + 65/12*y^4 - 46/9*x^3*z + 47/9*x^2*y*z + 341/9*x*y^2*z + 307/18*y^3*z - 14/3*x^2*z^2 + 47/9*x*y*z^2 + 27/2*y^2*z^2 - 35/9*x*z^3 + 11/9*y*z^3 - 13/12*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 19:
+Q1: 1/2*x^2 + x*y + 5/2*y^2 + 2/3*x*z + 8/3*y*z + 2/3*z^2
+Q2: 4/3*x^2 + 5*x*y + y^2 + 8/3*x*z + 5*y*z + z^2
+Q3: 5/2*x^2 + 3*x*y + 4/3*y^2 + 10/3*x*z + 4*y*z + 5/2*z^2
+Delta: 19/36*x^4 + 28/3*x^3*y + 71/4*x^2*y^2 + 7/6*x*y^3 - 7/3*y^4 + 34/9*x^3*z + 26*x^2*y*z + 307/9*x*y^2*z - 32/9*y^3*z + 167/36*x^2*z^2 + 371/18*x*y*z^2 + 331/36*y^2*z^2 + 13/9*x*z^3 + 2/3*y*z^3 - 2/3*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 20:
+Q1: 1/3*x^2 + 2*x*y + 3/2*y^2 + 8/3*x*z + 3*y*z + 5/2*z^2
+Q2: 1/2*x^2 + 2*x*y + y^2 + 2*x*z + 5*y*z + 2/3*z^2
+Q3: 5/2*x^2 + 5*x*y + y^2 + 10/3*x*z + 2*y*z + 5/2*z^2
+Delta: -7/12*x^4 - 14/3*x^3*y - 109/12*x^2*y^2 - 11/2*x*y^3 - 1/2*y^4 - 52/9*x^3*z - 91/6*x^2*y*z - 8/3*x*y^2*z + 4*y^3*z - 407/36*x^2*z^2 - 61/6*x*y*z^2 + 169/12*y^2*z^2 - 37/3*x*z^3 - 35/6*y*z^3 - 209/36*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 21:
+Q1: 1/3*x^2 + 5*x*y + 1/2*y^2 + 3*x*z + 3*y*z + z^2
+Q2: 1/2*x^2 + 10/3*x*y + 3/2*y^2 + 4/3*x*z + 10/3*y*z + 2/3*z^2
+Q3: 5/3*x^2 + 4/3*x*y + 2/3*y^2 + 2*x*z + 2*y*z + 1/2*z^2
+Delta: -11/36*x^4 - 49/9*x^3*y + 44/9*x^2*y^2 + 6*x*y^3 + 23/12*y^4 - 13/3*x^3*z - 67/9*x^2*y*z + 83/9*x*y^2*z + 7*y^3*z - 97/18*x^2*z^2 - 5/2*x*y*z^2 + 223/36*y^2*z^2 - 31/18*x*z^3 + 17/18*y*z^3 - 1/18*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 22:
+Q1: x^2 + 3*x*y + 5/2*y^2 + 5*x*z + 4*y*z + 3/2*z^2
+Q2: 1/2*x^2 + x*y + 5/3*y^2 + 4/3*x*z + 5*y*z + 5/3*z^2
+Q3: x^2 + 10/3*x*y + 5/3*y^2 + 5*x*z + 2*y*z + 4/3*z^2
+Delta: -3/4*x^4 - 16/3*x^3*y - 23/2*x^2*y^2 - 10*x*y^3 - 25/18*y^4 - 26/3*x^3*z - 30*x^2*y*z - 463/18*x*y^2*z + 5*y^3*z - 439/18*x^2*z^2 - 67/3*x*y*z^2 + 301/18*y^2*z^2 - 175/18*x*z^3 + 25/3*y*z^3 + 7/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+15 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 2 nested ovals (a Vinnikov curve).
+------------------------------------------
+Iteration 23:
+Q1: 1/3*x^2 + 3*x*y + y^2 + x*z + 4/3*y*z + z^2
+Q2: 1/3*x^2 + 2*x*y + 1/2*y^2 + 5*x*z + 4*y*z + 1/3*z^2
+Q3: x^2 + 4/3*x*y + 2*y^2 + 8/3*x*z + y*z + 5/3*z^2
+Delta: -2/9*x^4 - 19/9*x^3*y - 4/3*x^2*y^2 - 16/3*x*y^3 - 7/4*y^4 + 13/9*x^3*z + 35/3*x^2*y*z + 104/9*x*y^2*z + 1/3*y^3*z + 21*x^2*z^2 + 274/9*x*y*z^2 + 34/3*y^2*z^2 - x*z^3 - 5/9*y*z^3 - 14/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+Singular crashed -- automatically restarting.
+Singular error:
+   ? `int` expected while building `solve(`
+   ? error occurred in or before STDIN line 11: `def sage96682=solve(sage96680,sage96681);`
+------------------------------------------
+Iteration 24:
+Q1: 1/2*x^2 + 10/3*x*y + 3/2*y^2 + 3*x*z + 2*y*z + 1/2*z^2
+Q2: 3/2*x^2 + 10/3*x*y + 3/2*y^2 + 10/3*x*z + 2*y*z + 5/2*z^2
+Q3: x^2 + 10/3*x*y + 1/2*y^2 + 4*x*z + 5*y*z + 4/3*z^2
+Delta: 7/4*x^4 + 5*x^3*y + 11/4*x^2*y^2 + 10/3*x*y^3 + 3/2*y^4 + 5*x^3*z + 7/18*x^2*y*z - 15/2*x*y^2*z - 5/2*y^3*z + 49/9*x^2*z^2 + 8/9*x*y*z^2 - 3/4*y^2*z^2 + 32/3*x*z^3 + 29/6*y*z^3 + 67/12*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 25:
+Q1: 2/3*x^2 + 2*x*y + y^2 + 2*x*z + 4/3*y*z + 2*z^2
+Q2: 1/2*x^2 + 5*x*y + 2*y^2 + 2*x*z + 2/3*y*z + 5/2*z^2
+Q3: 5/2*x^2 + 4*x*y + y^2 + 4/3*x*z + 2/3*y*z + 4/3*z^2
+Delta: -17/12*x^4 - 8/3*x^3*y + 95/6*x^2*y^2 + 14*x*y^3 + 3*y^4 - 35/9*x^3*z + 56/9*x^2*y*z + 14/3*x*y^2*z + 2/3*y^3*z - 37/18*x^2*z^2 + 125/9*x*y*z^2 + 56/9*y^2*z^2 + 14/3*x*z^3 + 2/9*y*z^3 + 43/12*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 26:
+Q1: 3/2*x^2 + 2*x*y + 3/2*y^2 + 3*x*z + 8/3*y*z + 3/2*z^2
+Q2: 1/3*x^2 + 10/3*x*y + 1/2*y^2 + 2*x*z + 3*y*z + 4/3*z^2
+Q3: 4/3*x^2 + 8/3*x*y + 5/3*y^2 + 10/3*x*z + 5*y*z + z^2
+Delta: -17/9*x^4 - 40/9*x^3*y + 29/18*x^2*y^2 - 4*x*y^3 - 9/4*y^4 - 23/3*x^3*z - 187/18*x^2*y*z - 46/9*x*y^2*z - 161/18*y^3*z - 155/18*x^2*z^2 - 9*x*y*z^2 - 7*y^2*z^2 - 8/3*x*z^3 - 13/6*y*z^3 + 5/18*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 27:
+Q1: x^2 + 2/3*x*y + y^2 + 2/3*x*z + 2*y*z + 3/2*z^2
+Q2: x^2 + 2/3*x*y + 1/2*y^2 + 3*x*z + 8/3*y*z + 5/3*z^2
+Q3: 4/3*x^2 + 4*x*y + 5/3*y^2 + 2/3*x*z + 8/3*y*z + z^2
+Delta: -1/3*x^4 - 32/9*x^3*y - 38/9*x^2*y^2 - 40/9*x*y^3 - 17/12*y^4 + 40/9*x^3*z + 8/9*x^2*y*z - 5*x*y^2*z - 10/3*y^3*z + 80/9*x^2*z^2 + 76/9*x*y*z^2 - 1/18*y^2*z^2 + 25/3*x*z^3 + 26/9*y*z^3 + 23/18*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 28:
+Q1: 4/3*x^2 + 8/3*x*y + 2/3*y^2 + 4*x*z + 8/3*y*z + z^2
+Q2: 1/2*x^2 + 4/3*x*y + 1/2*y^2 + 8/3*x*z + 4/3*y*z + z^2
+Q3: 1/3*x^2 + 5*x*y + 5/2*y^2 + 2/3*x*z + 2*y*z + 1/2*z^2
+Delta: -7/36*x^4 - 56/9*x^3*y - 263/18*x^2*y^2 - 26/3*x*y^3 - 17/12*y^4 + 4/9*x^3*z - 152/9*x^2*y*z - 206/9*x*y^2*z - 20/3*y^3*z + 40/9*x^2*z^2 - 19/3*x*y*z^2 - 97/18*y^2*z^2 + 8/3*x*z^3 - 2/3*y*z^3 + 1/2*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 29:
+Q1: x^2 + 2*x*y + 5/3*y^2 + 2/3*x*z + 4/3*y*z + 1/2*z^2
+Q2: 4/3*x^2 + 3*x*y + y^2 + 3*x*z + 8/3*y*z + z^2
+Q3: 2/3*x^2 + 4/3*x*y + 1/3*y^2 + x*z + 4/3*y*z + z^2
+Delta: 10/9*x^4 + 16/3*x^3*y + 68/9*x^2*y^2 + 28/9*x*y^3 + 4/9*y^4 + 59/9*x^3*z + 20*x^2*y*z + 47/3*x*y^2*z + 8/3*y^3*z + 29/3*x^2*z^2 + 154/9*x*y*z^2 + 11/2*y^2*z^2 + 29/6*x*z^3 + 10/3*y*z^3 + 1/2*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+Singular crashed -- automatically restarting.
+Singular error:
+   ? `int` expected while building `solve(`
+   ? error occurred in or before STDIN line 11: `def sage124965=solve(sage124963,sage124964);`
+------------------------------------------
+Iteration 30:
+Q1: 5/2*x^2 + 4*x*y + 1/2*y^2 + 8/3*x*z + 2/3*y*z + 1/3*z^2
+Q2: 2/3*x^2 + x*y + y^2 + 3*x*z + 8/3*y*z + z^2
+Q3: x^2 + 2*x*y + 5/3*y^2 + 10/3*x*z + y*z + z^2
+Delta: -37/18*x^4 - 23/3*x^3*y - 31/3*x^2*y^2 - 17/3*x*y^3 + 1/6*y^4 - 7*x^3*z - 221/18*x^2*y*z - 1/9*x*y^2*z + 67/18*y^3*z - 25/18*x^2*z^2 + 76/9*x*y*z^2 + 133/18*y^2*z^2 + 20/9*x*z^3 + 13/3*y*z^3 + 2/3*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 31:
+Q1: 2*x^2 + 2*x*y + 2/3*y^2 + 2/3*x*z + 8/3*y*z + 1/2*z^2
+Q2: x^2 + 2*x*y + 3/2*y^2 + 4/3*x*z + y*z + 3/2*z^2
+Q3: 3/2*x^2 + 10/3*x*y + 4/3*y^2 + 4*x*z + 5*y*z + z^2
+Delta: -2*x^4 - 17/3*x^3*y - 10/3*x^2*y^2 + 10/9*x*y^3 + 49/36*y^4 - 19/3*x^3*z - 152/9*x^2*y*z - 130/9*x*y^2*z - 35/9*y^3*z - 23/36*x^2*z^2 - 9*x*y*z^2 - 55/6*y^2*z^2 + 4/3*x*z^3 - 13/6*y*z^3 + 7/4*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 32:
+Q1: 3/2*x^2 + 2*x*y + 1/3*y^2 + 4/3*x*z + y*z + 2/3*z^2
+Q2: 5/3*x^2 + 2*x*y + y^2 + 8/3*x*z + 10/3*y*z + 4/3*z^2
+Q3: 5/2*x^2 + 4/3*x*y + 5/2*y^2 + 10/3*x*z + y*z + z^2
+Delta: -35/36*x^4 - 1/3*x^3*y + 1/12*x^2*y^2 - 13/9*x*y^3 + 1/6*y^4 + 5/9*x^3*z + 28/3*x^2*y*z + 98/9*x*y^2*z + 23/6*y^3*z + 71/18*x^2*z^2 + 140/9*x*y*z^2 + 97/9*y^2*z^2 + 32/9*x*z^3 + 65/9*y*z^3 + 10/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 33:
+Q1: x^2 + 3*x*y + 2*y^2 + 2/3*x*z + 2*y*z + 2/3*z^2
+Q2: x^2 + 2/3*x*y + 1/3*y^2 + 3*x*z + 4/3*y*z + 2*z^2
+Q3: 3/2*x^2 + 4/3*x*y + 5/3*y^2 + 8/3*x*z + 2*y*z + 4/3*z^2
+Delta: -1/2*x^4 - 9/2*x^3*y - 68/9*x^2*y^2 - 65/9*x*y^3 - 29/9*y^4 + 7/3*x^3*z - 65/9*x^2*y*z - 34/3*x*y^2*z - 58/9*y^3*z + 80/9*x^2*z^2 - 8/9*x*y*z^2 - 14/3*y^2*z^2 + 28/3*x*z^3 + 4/3*y*z^3 + 28/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 34:
+Q1: 5/3*x^2 + 5*x*y + 1/3*y^2 + 3*x*z + 8/3*y*z + 3/2*z^2
+Q2: 2/3*x^2 + 2/3*x*y + y^2 + 8/3*x*z + 5*y*z + 2*z^2
+Q3: x^2 + 5*x*y + 4/3*y^2 + 3*x*z + 2*y*z + 5/3*z^2
+Delta: -11/9*x^4 - 112/9*x^3*y - 232/9*x^2*y^2 - 7*x*y^3 + 5/9*y^4 - 40/9*x^3*z - 232/9*x^2*y*z - 49/3*x*y^2*z + 52/9*y^3*z - 7/2*x^2*z^2 - 1/2*x*y*z^2 + 190/9*y^2*z^2 + 7/6*x*z^3 + 113/9*y*z^3 + 3/2*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 35:
+Q1: 1/2*x^2 + 5*x*y + 5/2*y^2 + 8/3*x*z + 8/3*y*z + 1/2*z^2
+Q2: 3/2*x^2 + 2*x*y + y^2 + 10/3*x*z + 8/3*y*z + 1/3*z^2
+Q3: 4/3*x^2 + 2*x*y + 1/2*y^2 + 8/3*x*z + 2*y*z + 5/2*z^2
+Delta: 19/12*x^4 - 5/3*x^3*y - 79/12*x^2*y^2 - 7/2*x*y^3 - 1/4*y^4 + 46/9*x^3*z - 17/9*x^2*y*z - 6*x*y^2*z - y^3*z + 37/12*x^2*z^2 - 41/6*x*y*z^2 - 73/18*y^2*z^2 - 52/9*x*z^3 - 53/9*y*z^3 - 41/36*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 36:
+Q1: x^2 + 3*x*y + 2*y^2 + 2*x*z + y*z + 2*z^2
+Q2: x^2 + 2*x*y + 3/2*y^2 + x*z + 3*y*z + 5/3*z^2
+Q3: 5/3*x^2 + 8/3*x*y + 5/2*y^2 + 5*x*z + 4*y*z + 4/3*z^2
+Delta: -2/3*x^4 - 11/3*x^3*y - 41/6*x^2*y^2 - 41/6*x*y^3 - 11/4*y^4 - 19/3*x^3*z - 16*x^2*y*z - 44/3*x*y^2*z - 3/2*y^3*z - 31/3*x^2*z^2 - 29/3*x*y*z^2 + 7/3*y^2*z^2 - 28/3*x*z^3 + 2/3*y*z^3 + 1/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 37:
+Q1: x^2 + 4*x*y + y^2 + 4*x*z + 10/3*y*z + z^2
+Q2: 3/2*x^2 + 10/3*x*y + 3/2*y^2 + 2*x*z + 4*y*z + 4/3*z^2
+Q3: 5/2*x^2 + x*y + y^2 + 5*x*z + 8/3*y*z + 2/3*z^2
+Delta: -1/4*x^4 - x^3*y + 73/9*x^2*y^2 + 5*x*y^3 + 5/4*y^4 - 9*x^3*z - 29/3*x^2*y*z + 29/3*x*y^2*z + 6*y^3*z - 91/6*x^2*z^2 - 55/9*x*y*z^2 + 85/9*y^2*z^2 - 7/3*x*z^3 + 52/9*y*z^3 + 10/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 38:
+Q1: 3/2*x^2 + x*y + 1/2*y^2 + 4*x*z + y*z + 1/3*z^2
+Q2: 1/3*x^2 + 3*x*y + y^2 + x*z + 8/3*y*z + 4/3*z^2
+Q3: 5/2*x^2 + x*y + 1/2*y^2 + 2*x*z + 8/3*y*z + 5/3*z^2
+Delta: -131/36*x^4 - 2*x^3*y + 20/3*x^2*y^2 + 5*x*y^3 + 3/4*y^4 - 37/3*x^3*z - 85/18*x^2*y*z + 34/3*x*y^2*z + 7/2*y^3*z - 85/9*x^2*z^2 - 4/3*x*y*z^2 + 55/9*y^2*z^2 - 14/3*x*z^3 + 41/9*y*z^3 + 11/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 16 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of 3 ovals.
+------------------------------------------
+Iteration 39:
+Q1: 3/2*x^2 + 4*x*y + y^2 + 4/3*x*z + 2/3*y*z + 2*z^2
+Q2: 4/3*x^2 + 10/3*x*y + 1/3*y^2 + 2*x*z + 2*y*z + 5/2*z^2
+Q3: 2*x^2 + 8/3*x*y + 2/3*y^2 + 2*x*z + 8/3*y*z + 2*z^2
+Delta: -11/9*x^4 - 28/9*x^3*y - 5/3*x^2*y^2 - 28/9*x*y^3 - 5/9*y^4 - 1/3*x^3*z + 16/9*x^2*y*z - 2/3*x*y^2*z - 16/9*y^3*z + x^2*z^2 + 58/9*x*y*z^2 + 5/9*y^2*z^2 + 10/3*x*z^3 + 10/3*y*z^3 + 9/4*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 40:
+Q1: 5/3*x^2 + 4*x*y + 4/3*y^2 + 5*x*z + 5*y*z + 2*z^2
+Q2: 2/3*x^2 + 10/3*x*y + 3/2*y^2 + 2*x*z + 2/3*y*z + 5/2*z^2
+Q3: 2*x^2 + 4*x*y + y^2 + 2*x*z + 10/3*y*z + z^2
+Delta: -26/9*x^4 - 92/9*x^3*y - 65/9*x^2*y^2 + 2/3*x*y^3 + 11/12*y^4 - 32/3*x^3*z - 88/3*x^2*y*z - 275/9*x*y^2*z - 67/9*y^3*z - 25/3*x^2*z^2 - 58/3*x*y*z^2 - 217/18*y^2*z^2 + x*z^3 - 25/3*y*z^3 + 17/4*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 41:
+Q1: 2/3*x^2 + 3*x*y + 2*y^2 + 2*x*z + 10/3*y*z + 1/2*z^2
+Q2: 1/3*x^2 + 3*x*y + y^2 + 2*x*z + 8/3*y*z + 2/3*z^2
+Q3: 5/3*x^2 + 3*x*y + 1/2*y^2 + 5*x*z + 10/3*y*z + 1/3*z^2
+Delta: -x^4 - 5*x^3*y - 3*x^2*y^2 - 3/2*x*y^3 - 16/3*x^3*z - 15*x^2*y*z - 11*x*y^2*z - 3*y^3*z - 119/18*x^2*z^2 - 67/6*x*y*z^2 - 43/12*y^2*z^2 - 1/2*x*z^3 + 7/9*y*z^3 + 5/18*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 42:
+Q1: x^2 + x*y + y^2 + 2*x*z + 4*y*z + 1/2*z^2
+Q2: 2/3*x^2 + 4/3*x*y + 2/3*y^2 + 2*x*z + 3*y*z + 4/3*z^2
+Q3: 2*x^2 + 3*x*y + 2/3*y^2 + 3*x*z + 4/3*y*z + z^2
+Delta: -14/9*x^4 - 29/9*x^3*y - 3*x^2*y^2 - 17/9*x*y^3 - 2/9*y^4 - 13/3*x^3*z - 9*x^2*y*z - 7*x*y^2*z - 20/9*x^2*z^2 - 29/18*x*y*z^2 + 37/9*y^2*z^2 + 11/6*x*z^3 + 10/3*y*z^3 + 23/18*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 43:
+Q1: 1/3*x^2 + 2*x*y + 1/2*y^2 + 2*x*z + 10/3*y*z + 5/2*z^2
+Q2: 2*x^2 + 4/3*x*y + 2/3*y^2 + 8/3*x*z + 8/3*y*z + 2*z^2
+Q3: 5/2*x^2 + x*y + 2/3*y^2 + 2*x*z + y*z + 4/3*z^2
+Delta: 19/6*x^4 + 35/36*x^2*y^2 - 1/18*x*y^3 + 1/9*y^4 + 5*x^3*z + 28/9*x^2*y*z + 3*x*y^2*z + 5/6*y^3*z + 53/12*x^2*z^2 + 103/18*x*y*z^2 + 37/9*y^2*z^2 + 3*x*z^3 + 67/18*y*z^3 + 2/3*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 44:
+Q1: x^2 + 8/3*x*y + 5/3*y^2 + 4*x*z + 2*y*z + 3/2*z^2
+Q2: 3/2*x^2 + 10/3*x*y + 1/2*y^2 + x*z + 2/3*y*z + 4/3*z^2
+Q3: 2/3*x^2 + 2/3*x*y + 1/3*y^2 + 10/3*x*z + 4*y*z + 3/2*z^2
+Delta: 19/12*x^4 + 68/9*x^3*y + 169/18*x^2*y^2 + 4/3*x*y^3 - 11/36*y^4 - 3*x^3*z - 74/9*x^2*y*z - 121/9*x*y^2*z - 20/3*y^3*z - 65/6*x^2*z^2 - 157/9*x*y*z^2 - 83/9*y^2*z^2 - 25/3*x*z^3 - 65/9*y*z^3 - 17/36*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 45:
+Q1: x^2 + 4/3*x*y + y^2 + 2/3*x*z + 8/3*y*z + 3/2*z^2
+Q2: 5/3*x^2 + 4/3*x*y + y^2 + 2*x*z + 8/3*y*z + 1/2*z^2
+Q3: 4/3*x^2 + 8/3*x*y + 5/3*y^2 + 10/3*x*z + 10/3*y*z + 1/3*z^2
+Delta: 13/9*x^4 - 13/9*x^2*y^2 - 20/9*x*y^3 - 2/3*y^4 + 22/9*x^3*z + 10/9*x^2*y*z - 44/9*x*y^2*z - 22/9*y^3*z + 10/9*x^2*z^2 - 32/9*x*y*z^2 - 65/18*y^2*z^2 - 29/9*x*z^3 - 29/9*y*z^3 - 1/4*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 46:
+Q1: 1/3*x^2 + 8/3*x*y + y^2 + 8/3*x*z + 5*y*z + 5/3*z^2
+Q2: 3/2*x^2 + 3*x*y + 1/2*y^2 + 3*x*z + 2/3*y*z + 5/2*z^2
+Q3: x^2 + 2*x*y + 2*y^2 + 2/3*x*z + 4/3*y*z + 5/2*z^2
+Delta: 23/12*x^4 + 17/3*x^3*y + 7/2*x^2*y^2 - 13/3*x*y^3 - 7/4*y^4 + 55/9*x^3*z + 67/9*x^2*y*z - 113/9*x*y^2*z - 32/3*y^3*z + 110/9*x^2*z^2 + 19/9*x*y*z^2 - 86/9*y^2*z^2 + 65/9*x*z^3 - 205/18*y*z^3 + 25/12*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+Singular crashed -- automatically restarting.
+Singular error:
+   ? `int` expected while building `solve(`
+   ? error occurred in or before STDIN line 11: `def sage167585=solve(sage167583,sage167584);`
+------------------------------------------
+Iteration 47:
+Q1: 1/2*x^2 + x*y + 2*y^2 + 2*x*z + 2*y*z + 5/2*z^2
+Q2: x^2 + 8/3*x*y + 1/2*y^2 + 8/3*x*z + 4*y*z + 1/3*z^2
+Q3: 2/3*x^2 + 4*x*y + y^2 + 4*x*z + 2*y*z + 2*z^2
+Delta: 2/3*x^4 + 8/3*x^3*y + 41/18*x^2*y^2 - 19/3*x*y^3 - 7/4*y^4 + 2*x^3*z + 71/9*x^2*y*z + 4*x*y^2*z - 2*y^3*z - 26/9*x^2*z^2 - 8/9*x*y*z^2 + 35/6*y^2*z^2 - 110/9*x*z^3 - 19/3*y*z^3 - 44/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------
+Iteration 48:
+Q1: 1/3*x^2 + 5*x*y + 3/2*y^2 + 2*x*z + 2/3*y*z + z^2
+Q2: 2*x^2 + x*y + 1/3*y^2 + 2*x*z + 8/3*y*z + 2*z^2
+Q3: 1/3*x^2 + 4*x*y + 2/3*y^2 + 2/3*x*z + 4/3*y*z + 1/2*z^2
+Delta: 35/9*x^4 + x^3*y - 331/18*x^2*y^2 - 26/3*x*y^3 - 8/9*y^4 + 64/9*x^3*z + 8/3*x^2*y*z - 5*x*y^2*z - 2/3*y^3*z + 61/6*x^2*z^2 + 91/18*x*y*z^2 + 221/36*y^2*z^2 + 19/3*x*z^3 + 9*y*z^3 + 7/2*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 49:
+Q1: 5/3*x^2 + 10/3*x*y + 2*y^2 + 8/3*x*z + y*z + 2*z^2
+Q2: x^2 + 4*x*y + 5/2*y^2 + 5*x*z + 3*y*z + 1/2*z^2
+Q3: 4/3*x^2 + 3*x*y + 1/2*y^2 + 4/3*x*z + 3*y*z + 1/2*z^2
+Delta: -11/9*x^4 - 13/9*x^3*y + 15/2*x^2*y^2 + 37/3*x*y^3 + 21/4*y^4 + 38/9*x^3*z + 245/9*x^2*y*z + 32*x*y^2*z + 17/2*y^3*z + 341/18*x^2*z^2 + 17*x*y*z^2 + 13/2*y^2*z^2 + x*z^3 - 7/2*y*z^3 - 3/4*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 8 real bitangents, stored in 'RealBitangents'.
+The real variety of the quartic consists of two non-nested ovals.
+------------------------------------------
+Iteration 50:
+Q1: 5/2*x^2 + 2*x*y + 3/2*y^2 + 2*x*z + 3*y*z + z^2
+Q2: 1/3*x^2 + 8/3*x*y + 3/2*y^2 + 5*x*z + 3*y*z + 4/3*z^2
+Q3: 5/3*x^2 + 2/3*x*y + y^2 + 2/3*x*z + 8/3*y*z + 2*z^2
+Delta: -73/18*x^4 - 29/9*x^3*y + 16/9*x^2*y^2 + 5*x*y^3 + 3/4*y^4 - 5/3*x^3*z + 43/3*x^2*y*z + 62/3*x*y^2*z + 2*y^3*z + 161/9*x^2*z^2 + 226/9*x*y*z^2 + y^2*z^2 + 26/3*x*z^3 - 2/3*y*z^3 - 2/9*z^4
+The discriminant curve is smooth.
+The double cover is also smooth.
+The quartic has 28 bitangets, stored in 'Bitangents', and 4 real bitangents, stored in 'RealBitangents'.
+We have found:
+63 complex Gram matrices of rank 3. Stored in 'V'.
+7 real Gram matrices. Stored in 'Vreal'.
+0 psd Gram matrices. Stored in 'Vpsd'.
+0 nsd Gram matrices. Stored in 'Vnsd'.
+The real variety of the quartic consists of 1 oval.
+------------------------------------------

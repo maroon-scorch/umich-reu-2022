@@ -1,0 +1,61 @@
+F=QQ;
+T.<x,y,z>=PolynomialRing(F);
+R.<u>=PolynomialRing(QQbar);
+
+Q1 =  x^2 - y^2 - z^2
+Q2 =  y^2
+Q3 =  -16*x^2 + 6*y^2 + z^2
+
+Delta = Q1*Q3 - Q2^2;
+
+print(Delta);
+
+h = I
+quartic = Delta(u, h, 0);
+
+print(quartic);
+print(Delta(u, -1*h, 0));
+
+root = list(map(lambda x: x[0], quartic.roots()));
+
+M = Matrix([[root[0], h, sqrt(Q1(root[0], h, 0)), sqrt(Q3(root[0], h, 0))],
+            [root[1], h, sqrt(Q1(root[1], h, 0)), sqrt(Q3(root[1], h, 0))],
+            [root[2], -1*h, sqrt(Q1(root[2], -1*h, 0)), sqrt(Q3(root[2], -1*h, 0))],
+            [root[3], -1*h, sqrt(Q1(root[3], -1*h, 0)), sqrt(Q3(root[3], -1*h, 0))]]);
+
+print(M)
+M.determinant()
+
+-16*x^4 + 22*x^2*y^2 - 7*y^4 + 17*x^2*z^2 - 7*y^2*z^2 - z^4
+-16*u^4 - 22*u^2 - 7
+-16*u^4 - 22*u^2 - 7
+[-0.9354143466934854?*I                      I    0.3535533905932738?     2.828427124746190?]
+[-0.7071067811865475?*I                      I    0.7071067811865475?     1.414213562373095?]
+[ 0.7071067811865475?*I                     -I    0.7071067811865475?     1.414213562373095?]
+[ 0.9354143466934854?*I                     -I    0.3535533905932738?     2.828427124746190?]
+1.369845393041627? + 0.?e-15*I
+-------------------------
+AA<x, y, z, t> := PolynomialRing(Rationals(), 4);
+
+f1 := (t-4)*(t+4);
+f2 := -(t-2)*(t+3);
+f3 := -(t-1)*(t+1);
+
+X := Matrix(AA, 3, 3, [f1,0,0, 0,f2,0, 0,0,f3]);
+M1 := Matrix(AA, 3, 3, [Coefficient(f1, t, 2),0,0, 0,Coefficient(f2, t, 2),0, 0,0,Coefficient(f3, t, 2)]);
+M2 := 1/2*Matrix(AA, 3, 3, [Coefficient(f1, t, 1),0,0, 0,Coefficient(f2, t, 1),0, 0,0,Coefficient(f3, t, 1)]);
+M3 := Matrix(AA, 3, 3, [Coefficient(f1, t, 0),0,0, 0,Coefficient(f2, t, 0),0, 0,0,Coefficient(f3, t, 0)]);
+
+print "M1: ", M1;
+print "M2: ", M2;
+print "M3: ", M3;
+
+variables := Matrix(AA, 3, 1, [x, y, z]);
+
+Q1 :=  (Transpose(variables)*M1*variables)[1][1];
+Q2 :=  (Transpose(variables)*M2*variables)[1][1];
+Q3 :=  (Transpose(variables)*M3*variables)[1][1];
+
+print "Q1 := ", Q1;
+print "Q2 := ", Q2;
+print "Q3 := ", Q3;

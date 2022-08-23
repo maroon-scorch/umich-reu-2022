@@ -1,0 +1,69 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{geometry}
+\geometry{letterpaper,margin=1in}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[all]{xy}
+\usepackage{hyperref}
+\usepackage{mathabx}
+\usepackage{tikz}
+\usepackage{mathabx}
+\usepackage[]{amsthm} %lets us use \begin{proof}
+\DeclareGraphicsRule{.tif}{pnf}{.png}{'convert #1 'dirname #1'/'basename #1.tif'.png}
+
+\newcommand{\bigzero}{\mbox{\normalfont\Large\bfseries 0}}
+
+\usepackage{subfig}
+
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{xspace}
+
+\newcommand{\Rbb}{\mathbb{R}}
+\newcommand{\Pbb}{\mathbb{P}}
+
+
+\setlength\parindent{0pt}
+
+\begin{document}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\theoremstyle{definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{definition}
+\newtheorem{goal}[theorem]{Goal}
+\theoremstyle{definition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{question}[theorem]{Question}
+\theoremstyle{definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\begin{lemma}
+$\pi_2(\Rbb)(Y(\Rbb)) = \{p \in \Pbb^2_{[u:v:w]}(\Rbb)\ |\ Q_1(p) \geq 0 \text{ or } \Delta(p) \leq 0\}$
+\end{lemma}
+
+\begin{proposition}
+If the topological type of $\Delta(\Rbb)$ is one oval, then $Y(\Rbb)$ is connected.
+\end{proposition}
+
+\begin{proof}
+It suffices for us to show that $\pi_2(\Rbb)(Y(\Rbb))$ is connected, since every fiber of the image is connected and $\pi_2$ is a close map.\\\\
+If $Q_1$ is positive definite, then $\pi_2(\Rbb)(Y(\Rbb)) = \Pbb^2_{[u:v:w]}(\Rbb)$ is connected.\\\\
+If $Q_1$ is negative definite, then $\pi_2(\Rbb)(Y(\Rbb)) = \{p \in \Pbb^2_{[u:v:w]}(\Rbb)\ | \Delta(p) \leq 0\}$, which is connected since $\Delta(\Rbb)$ is one oval, so both $\Delta(\Rbb)$ and its complement is connected.\\\\
+If $Q_1$ is indefinite, assume for the sake of contradiction that $Y(\Rbb)$ is disconnected, since $(Q_1 \geq 0)$ and $(\Delta(p) \leq 0)$ are both connected, it has to be the case that $\pi_2(Y(\Rbb))$ has 2 connected components being $(Q_1 \geq 0)$ and $(\Delta(p) \leq 0)$.\\\\
+But we note that for all $p \in (Q_1 = 0)$, we have that $\Delta(p) = -Q_2(p) \leq 0$, so $(Q_1 = 0)$ is contained in $(\Delta(p) \leq 0)$. But this means that $\pi_2(Y(\Rbb))$ is clearly connected. So we have a contradiction.\\\\
+Thus, in all cases, $Y(\Rbb)$ is connected.
+\end{proof}
+
+\end{document}

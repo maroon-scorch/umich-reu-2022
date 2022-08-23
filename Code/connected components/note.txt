@@ -1,0 +1,34 @@
+Deltatilde(R) nonempty implies Y R-rational implies Y(R) nonempty and connected
+
+So to find examples where Y(R) is not connected, we have to make sure Deltatilde(R) is empty
+
+Idea: Let Q1 and Q3 be both negative definite, this forces (0, 1) and (1, 0) to not be in the image of pi(R),
+then try to structure roots (r, 1) such that r < 0 and r > 0
+ 
+-------------
+Q1 := -x^2 - y^2 - z^2;
+Q2 := -2*x^2 + 5/2*y^2 + 11/2*z^2;
+Q3 := -3*x^2 - 6*y^2 - 28*z^2;
+
+Delta is x^4 - 19*x^2*y^2 + 1/4*y^4 - 53*x^2*z^2 - 13/2*y^2*z^2 + 9/4*z^4
+
+3 ovals
+
+Roots:  [ -3, -1, 2, 3, 4, 7 ]
+---------------------
+Evaluated at: ( -2 , 1)
+1 3
+Evaluated at: ( 0.5 , 1)
+0 4
+Evaluated at: ( 2.5 , 1)
+1 3
+Evaluated at: ( 3.5 , 1)
+0 4
+Evaluated at: ( 5.5 , 1)
+1 3
+Evaluated at: ( 8 , 1)
+0 4
+-------
+
+3 connected components
+

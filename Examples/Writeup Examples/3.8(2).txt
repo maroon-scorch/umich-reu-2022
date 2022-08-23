@@ -1,0 +1,26 @@
+\mjedit{
+\begin{proof}[Proof for Example~\ref{exmp:irr2nested}\eqref{item:2nestedP1} (two nested ovals, \(Y(\bb R)\) two connected components)]
+The discriminant curve \(\Delta\) is defined by
+\(-25u^4 - 41u^2v^2 - 16v^4 + 25u^2w^2 + 16v^2w^2 - w^4=0\),
+and the intersection \(\Delta \cap (w = 0)\) contains four complex points whose coordinates are
+\begin{gather*}[i : 1 : 0], \quad
+[-i : 1 : 0], \quad
+[\frac{4}{5}i : 1 : 0], \quad
+[-\frac{4}{5}i : 1 : 0].\end{gather*}
+One verifies that the set
+\begin{gather*}
+[i:1:0:0:-3], \quad [-i:1:0:0:-i\sqrt{7}], \\
+[2i\sqrt{2}:1:0:\sqrt{7}:\sqrt{7}], \quad [-2i\sqrt{2}:1:0:\sqrt{7}:\sqrt{7}].
+\end{gather*}
+of four points of \(\Deltatilde\) is \(\Gal(\bb C/\bb R)\)-invariant and maps to \(\Delta\cap (w=0)\) and with the property that the determinant
+\[\det\begin{pmatrix}
+-0.24184 - 0.95599i & 1 & 0.56081 + 0.41225i & 0.653135 - 1.41592i \\
+-0.24184 + 0.95599i & 1 & 0.56081 - 0.41225i & 0.653135 + 1.41592i \\
+-0.21970 - 1.27002i & 1 & 0.33854 + 0.82419i & 1.38227 - 0.80743i \\
+-0.21970 + 1.27002i & 1 & 0.33854 - 0.82419i & 1.38227 + 0.80743i
+\end{pmatrix} \approx 1.60963 \neq 0,\]
+so the four points above spans a \(3\)-plane in \(\bb P^4\).
+(We also note that \(\pi_1\) has fibers with signature \((2,2)\), thereby exhibiting effective divisors giving points on \(\Pm{1}\), see \cite[Theorem 4.4]{FJSVV}.)
+\end{proof}
+
+}

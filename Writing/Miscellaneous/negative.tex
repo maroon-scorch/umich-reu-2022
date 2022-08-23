@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{geometry}
+\geometry{letterpaper,margin=1in}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[all]{xy}
+\usepackage{hyperref}
+\usepackage{mathabx}
+\usepackage{tikz}
+\usepackage{mathabx}
+\usepackage[]{amsthm} %lets us use \begin{proof}
+\DeclareGraphicsRule{.tif}{pnf}{.png}{'convert #1 'dirname #1'/'basename #1.tif'.png}
+
+\newcommand{\bigzero}{\mbox{\normalfont\Large\bfseries 0}}
+
+\usepackage{subfig}
+
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{xspace}
+
+\newcommand{\Rbb}{\mathbb{R}}
+\newcommand{\Pbb}{\mathbb{P}}
+
+
+\setlength\parindent{0pt}
+
+\begin{document}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]
+\theoremstyle{definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{definition}
+\newtheorem{goal}[theorem]{Goal}
+\theoremstyle{definition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{question}[theorem]{Question}
+\theoremstyle{definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{proposition}[theorem]{Proposition}
+
+\begin{theorem}
+The following are equivalent:
+\begin{itemize}
+    \item $\pi_1(\Rbb): Y(\Rbb) \to \Pbb^{1}_{[t_0, t_1]}(\Rbb)$ is surjective
+    \item For all $[t_0, t_1] \in \Pbb^{1}_{[t_0, t_1]}(\Rbb)$, the correspondent quadratic form:
+    \[z^2 = Q_1(u, v, w)t_0^2 + 2Q_2(u, v, w)t_0 t_1 + Q_3(u, v, w) t_1^2\]
+    has a real solution
+    \item Let $M_1, M_2, M_3$ be the symmetric matrix associated to $Q_1, Q_2, Q_3$ the matrix 
+    \[M_{[t_0, t_1]} = 
+\left(\begin{array}{@{}c|c@{}}
+  \begin{matrix}
+    M_1t_0^2 + 2M_2t_0t_1 + M_3t_1^2
+  \end{matrix}
+  & \bigzero \\
+\hline
+  \bigzero &
+  \begin{matrix}
+  -1
+  \end{matrix}
+\end{array}\right)
+\]
+    is indefinite
+    \item $M_{[t_0, t_1]}$ is not negative-definite (since the matrix cannot be positive definite with the $-1$ term)
+\end{itemize}
+\end{theorem}
+
+\begin{theorem}[Sylvester's Criterion]
+Let $M \in M_{n \times n}(\Rbb)$ be an $n \times n$ real matrix, and let $M_1, ..., M_n$ be real matrices such that $M_k$ is the $k \times k$ upper left corner matrix of $M$.\\\\
+Then $M$ is negative-definite if and only if for all odd $k$, $det(M_k) < 0$, and for all even $k$, $det(M_k) > 0$.
+\end{theorem}
+
+\begin{proposition}
+Suppose either $M_1$ or $M_3$ is negative definite, then $\pi_1(\Rbb): Y(\Rbb) \to \Pbb^{1}_{[t_0, t_1]}(\Rbb)$ is not surjective.
+\end{proposition}
+
+\begin{proof}
+Suppose $M_1$ is negative definite, then on $[1, 0] \in \Pbb^{1}_{[t_0, t_1]}(\Rbb)$, the matrix $M_{[t_0, t_1]}$ becomes
+\[M_{[1, 0]} = \left(\begin{array}{@{}c|c@{}}
+  \begin{matrix}
+    M_1
+  \end{matrix}
+  & \bigzero \\
+\hline
+  \bigzero &
+  \begin{matrix}
+  -1
+  \end{matrix}
+\end{array}\right)\]
+Let $M_1, M_2, M_3, M_4$ be the upper left corner matrix as described in Theorem 0.2. Since $M_1$ is negative definite, we have that $det(M_1) < 0, det(M_2) > 0, det(M_3) < 0$. We also have that
+\[det(M_4) = det(M) = (-1)det(M_3) > 0\]
+So Theorem 0.2 shows that $M_{[1, 0]}$ is a negative definite matrix, then Theorem 0.1 shows that $\pi_1(\Rbb)$ is not surjective.\\\\
+Suppose $M_3$ is negative definite, then a nearly identical argument follows by considering the point $[0, 1] \in \Pbb^{1}_{[t_0, t_1]}(\Rbb)$
+\end{proof}
+
+\end{document}

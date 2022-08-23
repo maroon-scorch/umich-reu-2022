@@ -1,0 +1,33 @@
+R<x,y,z> := PolynomialRing(Rationals(), 3);
+limit := 10;
+
+poly := function(r, s)
+    return -1, r + s, -1*r*s;
+end function;
+
+random_elt := function()
+    return Random(-1*limit, limit)/Random(1, limit);
+end function;
+
+roots := Sort([random_elt(), random_elt(), random_elt(), random_elt(), random_elt(), random_elt()]);
+
+print roots;
+
+a1, a2, a3 := poly(roots[1], roots[2]);
+b1, b2, b3 := poly(roots[3], roots[4]);
+c1, c2, c3 := poly(roots[5], roots[6]);
+
+Q1 := a1*x^2 + b1*y^2 + c1*z^2;
+Q2 := a2/2*x^2 + b2/2*y^2 + c2/2*z^2;
+Q3 := a3*x^2 + b3*y^2 + c3*z^2;
+
+print "Q1 = ", Q1;
+print "Q2 = ", Q2;
+print "Q3 = ", Q3;
+print "---------------------";
+
+Delta := Q2^2 - Q1*Q3;
+
+print "Delta: ", Delta;
+
+print "---------------------";
