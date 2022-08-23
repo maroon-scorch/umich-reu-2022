@@ -7,7 +7,11 @@ My REU was funded by the National Science Foundation (Karen Smith’s NSF grant 
 
 ## Important Note
 
-1. Some of my **Sage** code relied on the **Sage** [code](http://sites.math.washington.edu/~vinzant/research/quartics/quartictype.sage) written by Daniel Plaumann, Bernd Sturmfels, and Cynthia Vinzant as supplementary material for their paper ["Quartic Curves and Their Bitangents"](https://arxiv.org/abs/1008.4104). Specifically, any functionality where I either (a) checked for the topological type of a given smooth quartic, (b) found the bitangents of a given smooth quartic, or (c) checked if $\Delta$ is smooth, used their code. Indeed, any example listed with a known topological type was confirmed by their code as well.
+1. Some of my **Sage** code relied on the **Sage** [code](http://sites.math.washington.edu/~vinzant/research/quartics/quartictype.sage) written by Daniel Plaumann, Bernd Sturmfels, and Cynthia Vinzant as supplementary material for their paper ["Quartic Curves and Their Bitangents"](https://arxiv.org/abs/1008.4104). Specifically, any functionality of the following list used their code
+    - (a) checked for the topological type of a given smooth quartic
+    - (b) found the bitangents of a given smooth quartic
+    - (c) checked if $\Delta$ is smooth, used their code.
+Any example listed with a known topological type was confirmed by their code as well.
 
 I acknowledge this fact. Therefore, I have replaced ALL the places where I used the code in Case (a) and (b) with blank functions instead. If you are curious on what the code should have looked like with their code, feel free to check out the accomapnied [repository](https://github.com/lena-ji/ConicBundles) for our paper or try to insert Plaumann et al.'s original code.
 
