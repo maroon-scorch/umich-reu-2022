@@ -1,7 +1,10 @@
 # umich-reu-2022
 This repository hosts some of the miscellaneous codes and writeups I wrote for the [University of Michigan's 2022 Mathematics REU program](https://lsa.umich.edu/math/undergraduates/research-and-career-opportunities/research/research-experience-for-undergraduates--reu-.html) advised by Dr. [Lena Ji](http://www-personal.umich.edu/~lenaji/) (no relations).
 
-If you would like to learn more about our project, feel free to check out the paper [''Rationality of real conic bundles with quartic discriminant curve''](https://arxiv.org/abs/2208.08916) by Lena Ji and Mattie Ji. For a softer introduction to the subject, check out my presentation for the [UMich REU Seminar](Presentation/UMich_REU_Presentation/UMich_Reu_Presentation.pdf) and at the [Young Mathematician's Conference](Presentation/YMC_Presentation_Summer_2022/YMC_Presentation_Summer_2022.pdf).
+If you would like to learn more about our project, feel free to check out the paper [''Rationality of real conic bundles with quartic discriminant curve''](https://arxiv.org/abs/2208.08916) by Lena Ji and Mattie Ji. For a softer introduction to the subject, check out my presentations:
+- For the [UMich REU Seminar](Presentation/UMich_REU_Presentation/UMich_Reu_Presentation.pdf)
+- For the [Young Mathematician's Conference](Presentation/YMC_Presentation_Summer_2022/YMC_Presentation_Summer_2022.pdf)
+- For the [Brown University Math Colloqium](Presentation/Brown_Undergrad_Math_Colloqium_Fall_2022/Brown_Undergrad_Math_Colloqium_Fall_2022.pdf)
 
 My REU was funded by the National Science Foundation (Karen Smith’s NSF grant DMS-2101075).
 
