@@ -5,6 +5,7 @@ If you would like to learn more about our project, feel free to check out the pa
 - For the [UMich REU Seminar](Presentation/UMich_REU_Presentation/UMich_Reu_Presentation.pdf)
 - For the [Young Mathematician's Conference](Presentation/YMC_Presentation_Summer_2022/YMC_Presentation_Summer_2022.pdf)
 - For the [Brown University Math Colloqium](Presentation/Brown_Undergrad_Math_Colloqium_Fall_2022/Brown_Undergrad_Math_Colloqium_Fall_2022.pdf)
+- For the [Joint Mathematics Meeting](JMM_2023_Poster.pdf)
 
 My REU was funded by the National Science Foundation (Karen Smith’s NSF grant DMS-2101075).
 
